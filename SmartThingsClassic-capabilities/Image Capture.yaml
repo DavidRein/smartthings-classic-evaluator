@@ -1,0 +1,22 @@
+# reviewed 2018-2-20
+name: Image Capture
+status: proposed
+attributes:
+  image:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: URL
+      required:
+        - value
+    type: STRING
+    setter: take
+commands:
+  take:
+    arguments: [
+      ]
+public: true
+id: imageCapture
+ocfResourceType: x.com.st.imagecapture
+version: 1

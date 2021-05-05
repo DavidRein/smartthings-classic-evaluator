@@ -1,0 +1,77 @@
+# reviewed 2018-2-13
+name: Timed Session
+status: proposed
+attributes:
+  sessionStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - canceled
+            - paused
+            - running
+            - stopped
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                type: string
+                enum:
+                  - canceled
+                  - paused
+                  - running
+                  - stopped
+      required:
+        - value
+    type: ENUM
+    values:
+      - canceled
+      - paused
+      - running
+      - stopped
+    enumCommands:
+      - command: cancel
+        value: canceled
+      - command: pause
+        value: paused
+      - command: start
+        value: running
+      - command: stop
+        value: stopped
+  completionTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Iso8601Date
+      required:
+        - value
+    type: DATE
+    setter: setCompletionTime
+commands:
+  cancel:
+    arguments: [
+      ]
+  pause:
+    arguments: [
+      ]
+  setCompletionTime:
+    arguments:
+    - name: completionTime
+      required: true
+      schema:
+        $ref: Iso8601Date
+      type: DATE
+  start:
+    arguments: [
+      ]
+  stop:
+    arguments: [
+      ]
+public: true
+id: timedSession
+version: 1

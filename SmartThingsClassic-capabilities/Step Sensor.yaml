@@ -1,0 +1,25 @@
+# reviewed 2018-01-11
+name: Step Sensor
+status: proposed
+attributes:
+  goal:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+  steps:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+commands: {
+  }
+public: true
+id: stepSensor
+version: 1

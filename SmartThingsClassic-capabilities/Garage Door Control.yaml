@@ -1,0 +1,54 @@
+# reviewed 2018-02-20
+name: Garage Door Control
+status: deprecated
+attributes:
+  door:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - closed
+            - closing
+            - open
+            - opening
+            - unknown
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                type: string
+                enum:
+                  - closed
+                  - closing
+                  - open
+                  - opening
+                  - unknown
+      required:
+        - value
+    type: ENUM
+    values:
+      - closed
+      - closing
+      - open
+      - opening
+      - unknown
+    enumCommands:
+      - command: close
+        value: closed
+      - command: open
+        value: open
+commands:
+  close:
+    arguments: [
+      ]
+  open:
+    arguments: [
+      ]
+public: true
+id: garageDoorControl
+ocfResourceType: x.com.st.garagedoorcontrol
+version: 1

@@ -1,0 +1,20 @@
+name: Refrigeration Setpoint
+status: proposed
+attributes:
+  refrigerationSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+    setter: setRefrigerationSetpoint
+commands:
+  setRefrigerationSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: TemperatureValue
+      type: NUMBER
+public: true
+id: refrigerationSetpoint
+ocfResourceType: x.com.st.temperature.refrigeration
+version: 1

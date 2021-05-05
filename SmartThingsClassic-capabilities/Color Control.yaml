@@ -1,0 +1,60 @@
+# reviewed 2018-01-16
+name: Color Control
+status: live
+attributes:
+  color:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: String
+    type: STRING
+    setter: setColor
+    actedOnBy:
+      - setHue
+      - setSaturation
+  hue:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+    setter: setHue
+  saturation:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+    setter: setSaturation
+commands:
+  setColor:
+    arguments:
+    - name: color
+      required: true
+      type: COLOR_MAP
+      schema:
+        type: object
+        properties:
+          value:
+            $ref: color-map
+  setHue:
+    arguments:
+    - name: hue
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+  setSaturation:
+    arguments:
+    - name: saturation
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+public: true
+id: colorControl
+ocfResourceType: oic.r.colour.chroma
+version: 1

@@ -1,0 +1,42 @@
+# reviewed 2018-02-01
+name: Audio Mute
+status: live
+attributes:
+  mute:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MuteState
+      required:
+        - value
+    type: ENUM
+    values:
+      - muted
+      - unmuted
+    setter: setMute
+    enumCommands:
+      - command: mute
+        value: muted
+      - command: unmute
+        value: unmuted
+commands:
+  setMute:
+    arguments:
+    - name: state
+      required: true
+      schema:
+        $ref: MuteState
+      type: ENUM
+      values:
+        - muted
+        - unmuted
+  mute:
+    arguments: [
+      ]
+  unmute:
+    arguments: [
+      ]
+public: true
+id: audioMute
+version: 1

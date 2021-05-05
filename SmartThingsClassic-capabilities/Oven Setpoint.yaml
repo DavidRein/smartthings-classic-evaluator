@@ -1,0 +1,24 @@
+name: Oven Setpoint
+status: proposed
+attributes:
+  ovenSetpoint:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+    setter: setOvenSetpoint
+commands:
+  setOvenSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+public: true
+id: ovenSetpoint
+ocfResourceType: x.com.st.temperature.oven
+version: 1

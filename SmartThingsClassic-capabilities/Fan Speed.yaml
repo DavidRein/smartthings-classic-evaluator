@@ -1,0 +1,24 @@
+name: Fan Speed
+status: proposed
+attributes:
+  fanSpeed:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+    setter: setFanSpeed
+commands:
+  setFanSpeed:
+    arguments:
+    - name: speed
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+public: true
+id: fanSpeed
+ocfResourceType: x.com.st.fanspeed
+version: 1

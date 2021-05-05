@@ -1,0 +1,21 @@
+# reviewed 2018-01-30
+name: Thermostat Heating Setpoint
+status: live
+attributes:
+  heatingSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+    setter: setHeatingSetpoint
+commands:
+  setHeatingSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: TemperatureValue
+      type: NUMBER
+public: true
+id: thermostatHeatingSetpoint
+ocfResourceType: x.com.st.temperature.heating
+version: 1

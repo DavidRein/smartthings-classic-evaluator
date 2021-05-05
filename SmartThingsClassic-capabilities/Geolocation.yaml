@@ -1,0 +1,77 @@
+id: geolocation
+name: Geolocation
+status: proposed
+public: true
+attributes:
+  latitude:
+    schema:
+      type: object
+      properties:
+        value:
+          type: integer
+          maximum: 90
+          minimum: -90
+    type: NUMBER
+  longitude:
+    schema:
+      type: object
+      properties:
+        value:
+          type: integer
+          maximum: 180
+          minimum: -180
+    type: NUMBER
+  method:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: String
+    type: STRING
+  accuracy:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          # maximum: ??
+    type: NUMBER
+  altitudeAccuracy:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          # maximum: ??
+    type: NUMBER
+  heading:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          maximum: 360
+    type: NUMBER
+  speed:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          # maximum: ??
+    type: NUMBER
+  lastUpdateTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+
+commands: {
+  }
+version: 1

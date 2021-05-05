@@ -1,0 +1,39 @@
+name: Dryer Mode
+status: proposed
+attributes:
+  dryerMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: DryerMode
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: DryerMode
+      required: ["value"]
+    type: ENUM
+    values:
+      - regular
+      - lowHeat
+      - highHeat
+    setter: setDryerMode
+commands:
+  setDryerMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: DryerMode
+      type: ENUM
+      values:
+        - regular
+        - lowHeat
+        - highHeat
+public: true
+id: dryerMode
+ocfResourceType: x.com.st.mode.dryer
+version: 1

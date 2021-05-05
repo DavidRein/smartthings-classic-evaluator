@@ -1,0 +1,20 @@
+# reviewed 2018-01-11
+name: Touch Sensor
+status: deprecated
+attributes:
+  touch:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - touched
+    type: ENUM
+    values:
+      - touched
+commands: {
+  }
+public: true
+id: touchSensor
+version: 1

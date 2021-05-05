@@ -1,0 +1,40 @@
+name: Robot Cleaner Turbo Mode
+status: proposed
+attributes:
+  robotCleanerTurboMode:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - 'on'
+            - 'off'
+            - 'silence'
+      required: ["value"]
+    type: ENUM
+    values:
+      - 'on'
+      - 'off'
+      - 'silence'
+    setter: setRobotCleanerTurboMode
+commands:
+  setRobotCleanerTurboMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        type: string
+        enum:
+          - 'on'
+          - 'off'
+          - 'silence'
+      type: ENUM
+      values:
+        - 'on'
+        - 'off'
+        - 'silence'
+public: true
+id: robotCleanerTurboMode
+ocfResourceType: x.com.st.robot.cleaner.turbo
+version: 1

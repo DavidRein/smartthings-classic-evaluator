@@ -1,0 +1,34 @@
+name: Washer Mode
+status: proposed
+attributes:
+  washerMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: WasherMode
+      required: ["value"]
+    type: ENUM
+    values:
+      - regular
+      - heavy
+      - rinse
+      - spinDry
+    setter: setWasherMode
+commands:
+  setWasherMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: WasherMode
+      type: ENUM
+      values:
+        - regular
+        - heavy
+        - rinse
+        - spinDry
+public: true
+id: washerMode
+ocfResourceType: x.com.st.mode.washer
+version: 1

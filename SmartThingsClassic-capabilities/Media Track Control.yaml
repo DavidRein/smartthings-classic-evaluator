@@ -1,0 +1,15 @@
+name: Media Track Control
+status: proposed
+attributes: {
+  }
+commands:
+  nextTrack:
+    arguments: [
+      ]
+  previousTrack:
+    arguments: [
+      ]
+public: true
+id: mediaTrackControl
+ocfResourceType: x.com.st.mediatrackcontrol
+version: 1

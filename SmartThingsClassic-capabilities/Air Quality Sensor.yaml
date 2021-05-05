@@ -1,0 +1,18 @@
+# reviewed 2018-01-11
+name: Air Quality Sensor
+status: proposed
+attributes:
+  airQuality:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+commands: {
+  }
+public: true
+id: airQualitySensor
+ocfResourceType: x.com.st.airqualitylevel
+version: 1

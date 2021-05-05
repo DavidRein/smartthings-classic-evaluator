@@ -1,0 +1,31 @@
+# reviewed 2018-2-20
+name: Outlet
+status: deprecated
+attributes:
+  switch:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: SwitchState
+      required:
+        - value
+    type: ENUM
+    values:
+      - 'off'
+      - 'on'
+    enumCommands:
+      - command: 'on'
+        value: 'on'
+      - command: 'off'
+        value: 'off'
+commands:
+  'off':
+    arguments: [
+      ]
+  'on':
+    arguments: [
+      ]
+public: true
+id: outlet
+version: 1

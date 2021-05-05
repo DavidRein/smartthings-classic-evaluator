@@ -1,0 +1,62 @@
+name: Media Playback
+status: proposed
+attributes:
+  level:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+  playbackStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - pause
+            - play
+            - stop
+    type: ENUM
+    values:
+      - pause
+      - play
+      - stop
+    setter: setPlaybackStatus
+    enumCommands:
+      - command: play
+        value: play
+      - command: pause
+        value: pause
+      - command: stop
+        value: stop
+commands:
+  setPlaybackStatus:
+    arguments:
+    - name: status
+      required: true
+      schema:
+        type: string
+        enum:
+          - pause
+          - play
+          - stop
+      type: ENUM
+      values:
+        - pause
+        - play
+        - stop
+  play:
+    arguments: [
+      ]
+  pause:
+    arguments: [
+      ]
+  stop:
+    arguments: [
+      ]
+public: true
+id: mediaPlayback
+ocfResourceType: x.com.st.mediaplayer
+version: 1

@@ -1,0 +1,12 @@
+# reviewed 2018-02-20
+name: Configuration
+status: live
+attributes: {
+  }
+commands:
+  configure:
+    arguments: [
+      ]
+public: true
+id: configuration
+version: 1

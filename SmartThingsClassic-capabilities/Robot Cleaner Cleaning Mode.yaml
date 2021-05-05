@@ -1,0 +1,50 @@
+name: Robot Cleaner Cleaning Mode
+status: proposed
+attributes:
+  robotCleanerCleaningMode:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - auto
+            - part
+            - repeat
+            - manual
+            - stop
+            - map
+      required: ["value"]
+    type: ENUM
+    values:
+      - auto
+      - part
+      - repeat
+      - manual
+      - stop
+      - map
+    setter: setRobotCleanerCleaningMode
+commands:
+  setRobotCleanerCleaningMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        type: string
+        enum:
+          - auto
+          - part
+          - repeat
+          - manual
+          - stop
+      type: ENUM
+      values:
+        - auto
+        - part
+        - repeat
+        - manual
+        - stop
+public: true
+id: robotCleanerCleaningMode
+ocfResourceType: x.com.st.robot.cleaner.cleaning
+version: 1

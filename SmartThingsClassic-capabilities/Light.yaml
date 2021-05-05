@@ -1,0 +1,30 @@
+# reviewed 2018-01-11
+name: Light
+status: deprecated
+attributes:
+  switch:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: SwitchState
+      required: ["value"]
+    type: ENUM
+    values:
+      - 'off'
+      - 'on'
+    enumCommands:
+      - command: 'on'
+        value: 'on'
+      - command: 'off'
+        value: 'off'
+commands:
+  'off':
+    arguments: [
+      ]
+  'on':
+    arguments: [
+      ]
+public: true
+id: light
+version: 1

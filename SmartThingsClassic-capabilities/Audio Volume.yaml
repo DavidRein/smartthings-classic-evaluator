@@ -1,0 +1,32 @@
+# reviewed 2018-01-03
+name: Audio Volume
+status: proposed
+attributes:
+  volume:
+    schema:
+      $ref: IntegerPercent
+    type: NUMBER
+    setter: setVolume
+    actedOnBy:
+      - volumeUp
+      - volumeDown
+commands:
+  setVolume:
+    arguments:
+    - name: volume
+      required: true
+      schema:
+        type: integer
+        minimum: 0
+        maximum: 100
+      type: NUMBER
+  volumeUp:
+    arguments: [
+      ]
+  volumeDown:
+    arguments: [
+      ]
+public: true
+id: audioVolume
+ocfResourceType: x.com.st.audiovolume
+version: 1

@@ -1,0 +1,26 @@
+# reviewed 2018-01-09
+name: Smoke Detector
+status: live
+attributes:
+  smoke:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - clear
+            - detected
+            - tested
+      required: ["value"]
+    type: ENUM
+    values:
+      - clear
+      - detected
+      - tested
+commands: {
+  }
+public: true
+id: smokeDetector
+ocfResourceType: x.com.st.smokedetector
+version: 1

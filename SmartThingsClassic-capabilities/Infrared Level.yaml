@@ -1,0 +1,22 @@
+# reviewed 2018-2-20
+name: Infrared Level
+status: live
+attributes:
+  infraredLevel:
+    schema:
+      $ref: Percent
+    type: NUMBER
+    setter: setInfraredLevel
+commands:
+  setInfraredLevel:
+    arguments:
+    - name: level
+      required: true
+      schema:
+        type: number
+        minimum: 0
+        maximum: 100
+      type: NUMBER
+public: true
+id: infraredLevel
+version: 1

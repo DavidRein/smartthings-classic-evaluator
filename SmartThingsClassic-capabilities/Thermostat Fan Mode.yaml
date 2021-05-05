@@ -1,0 +1,62 @@
+# reviewed 2018-01-30
+name: Thermostat Fan Mode
+status: live
+attributes:
+  thermostatFanMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatFanMode
+      required:
+        - value
+    type: ENUM
+    values:
+      - auto
+      - circulate
+      - followschedule
+      - 'on'
+    setter: setThermostatFanMode
+    enumCommands:
+      - command: fanAuto
+        value: auto
+      - command: fanCirculate
+        value: circulate
+      - command: fanOn
+        value: 'on'
+  supportedThermostatFanModes:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: ThermostatFanMode
+
+    type: JSON_OBJECT
+commands:
+  fanAuto:
+    arguments: [
+      ]
+  fanCirculate:
+    arguments: [
+      ]
+  fanOn:
+    arguments: [
+      ]
+  setThermostatFanMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: ThermostatFanMode
+      type: ENUM
+      values:
+        - auto
+        - circulate
+        - followschedule
+        - 'on'
+public: true
+id: thermostatFanMode
+ocfResourceType: x.com.st.mode.fan.thermostat
+version: 1

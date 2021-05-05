@@ -1,0 +1,57 @@
+name: Oven Mode
+status: proposed
+attributes:
+  ovenMode:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - heating
+            - grill
+            - warming
+            - defrosting
+        constraints:
+          constraints:
+            type: object
+            properties:
+              values:
+                type: array
+                items:
+                  type: string
+                  enum:
+                    - heating
+                    - grill
+                    - warming
+                    - defrosting
+      required: ["value"]
+    type: ENUM
+    values:
+      - heating
+      - grill
+      - warming
+      - defrosting
+    setter: setOvenMode
+commands:
+  setOvenMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        type: string
+        enum:
+          - heating
+          - grill
+          - warming
+          - defrosting
+      type: ENUM
+      values:
+        - heating
+        - grill
+        - warming
+        - defrosting
+public: true
+id: ovenMode
+ocfResourceType: x.com.st.mode.oven
+version: 1

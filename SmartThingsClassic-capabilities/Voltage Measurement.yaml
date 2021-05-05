@@ -1,0 +1,23 @@
+# reviewed 2018-02-15
+name: Voltage Measurement
+status: live
+attributes:
+  voltage:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Number
+        unit:
+          type: string
+          enum:
+            - V
+          default: V
+      required:
+        - value
+    type: NUMBER
+commands: {
+  }
+public: true
+id: voltageMeasurement
+version: 1

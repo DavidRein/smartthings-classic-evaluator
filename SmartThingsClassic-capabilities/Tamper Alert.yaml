@@ -1,0 +1,25 @@
+# reviewed 2018-2-13
+name: Tamper Alert
+status: live
+attributes:
+  tamper:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - clear
+            - detected
+      required:
+         - value
+    type: ENUM
+    values:
+      - clear
+      - detected
+commands: {
+  }
+public: true
+id: tamperAlert
+ocfResourceType: x.com.st.tamperalert
+version: 1

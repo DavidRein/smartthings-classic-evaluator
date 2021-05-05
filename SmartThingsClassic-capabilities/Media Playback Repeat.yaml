@@ -1,0 +1,40 @@
+name: Media Playback Repeat
+status: proposed
+attributes:
+  playbackRepeatMode:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - all
+            - 'off'
+            - one
+      required: ["value"]
+    type: ENUM
+    values:
+      - all
+      - 'off'
+      - one
+    setter: setPlaybackRepeatMode
+commands:
+  setPlaybackRepeatMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        type: string
+        enum:
+          - all
+          - 'off'
+          - one
+      type: ENUM
+      values:
+        - all
+        - 'off'
+        - one
+public: true
+id: mediaPlaybackRepeat
+ocfResourceType: x.com.st.mediarepeat
+version: 1

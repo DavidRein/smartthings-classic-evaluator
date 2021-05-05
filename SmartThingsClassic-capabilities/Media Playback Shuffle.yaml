@@ -1,0 +1,36 @@
+name: Media Playback Shuffle
+status: proposed
+attributes:
+  playbackShuffle:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - disabled
+            - enabled
+      required: ["value"]
+    type: ENUM
+    values:
+      - disabled
+      - enabled
+    setter: setPlaybackShuffle
+commands:
+  setPlaybackShuffle:
+    arguments:
+    - name: shuffle
+      required: true
+      schema:
+        type: string
+        enum:
+          - disabled
+          - enabled
+      type: ENUM
+      values:
+        - disabled
+        - enabled
+public: true
+id: mediaPlaybackShuffle
+ocfResourceType: x.com.st.mediashuffle
+version: 1

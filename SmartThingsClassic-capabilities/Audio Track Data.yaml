@@ -1,0 +1,19 @@
+# reviewed 2018-02-01
+name: Audio Track Data
+status: proposed
+attributes:
+  audioTrackData:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: AudioTrackAddress
+      required:
+        - value
+    type: JSON_OBJECT
+commands: {
+  }
+public: true
+id: audioTrackData
+ocfResourceType: x.com.st.audiotrackdata
+version: 1

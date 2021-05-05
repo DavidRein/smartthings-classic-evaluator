@@ -1,0 +1,43 @@
+# reviewed 2018-01-03
+name: Alarm
+status: live
+attributes:
+  alarm:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: AlertState
+      required: ["value"]
+    type: ENUM
+    values:
+      - both
+      - 'off'
+      - siren
+      - strobe
+    enumCommands:
+      - command: both
+        value: both
+      - command: 'off'
+        value: 'off'
+      - command: siren
+        value: siren
+      - command: strobe
+        value: strobe
+commands:
+  both:
+    arguments: [
+      ]
+  'off':
+    arguments: [
+      ]
+  siren:
+    arguments: [
+      ]
+  strobe:
+    arguments: [
+      ]
+public: true
+id: alarm
+ocfResourceType: x.com.st.alarm
+version: 1

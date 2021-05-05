@@ -1,0 +1,81 @@
+name: Dryer Operating State
+status: proposed
+attributes:
+  machineState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MachineState
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: MachineState
+      required: ["value"]
+    type: ENUM
+    values:
+      - pause
+      - run
+      - stop
+    setter: setMachineState
+  supportedMachineStates:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: MachineState
+      required: ["value"]
+    type: JSON_OBJECT
+  dryerJobState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: DryerJobState
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: DryerJobState
+      required: ["value"]
+    type: ENUM
+    values:
+      - cooling
+      - delayWash
+      - drying
+      - finished
+      - none
+      - weightSensing
+      - wrinklePrevent
+  completionTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Iso8601Date
+      required:
+        - value
+    type: DATE
+commands:
+  setMachineState:
+    arguments:
+    - name: state
+      required: true
+      schema:
+        $ref: MachineState
+      type: ENUM
+      values:
+        - pause
+        - run
+        - stop
+public: true
+id: dryerOperatingState
+ocfResourceType: x.com.st.operationalstate.dryer
+version: 1

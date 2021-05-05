@@ -1,0 +1,24 @@
+# reviewed 2018-02-20
+name: Energy Meter
+status: live
+attributes:
+  energy:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+        unit:
+          type: string
+          enum:
+            - kWh
+          default: kWh
+      required:
+        - value
+    type: NUMBER
+commands: {
+  }
+public: true
+id: energyMeter
+ocfResourceType: x.com.st.energymeter
+version: 1

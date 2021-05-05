@@ -1,0 +1,28 @@
+# reviewed 2018-02-22
+name: Lock Only
+status: deprecated
+attributes:
+  lock:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: LockState
+      required:
+        - value
+    type: ENUM
+    values:
+      - locked
+      - unknown
+      - unlocked
+      - unlocked with timeout
+    enumCommands:
+      - command: lock
+        value: locked
+commands:
+  lock:
+    arguments: [
+      ]
+public: true
+id: lockOnly
+version: 1

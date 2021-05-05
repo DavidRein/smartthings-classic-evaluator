@@ -1,0 +1,25 @@
+# reviewed 2018-2-20
+name: pH Measurement
+status: live
+attributes:
+  pH:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          maximum: 14
+        unit:
+          type: string
+          enum:
+            - pH
+          default: pH
+      required:
+        - value
+    type: NUMBER
+commands: {
+  }
+public: true
+id: pHMeasurement
+version: 1

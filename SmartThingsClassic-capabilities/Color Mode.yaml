@@ -1,0 +1,23 @@
+# reviewed 2018-01-16
+id: colorMode
+status: proposed
+public: true
+name: Color Mode
+attributes:
+  colorMode:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - color
+            - colorTemperature
+            - other
+    type: ENUM
+    values:
+      - color
+      - colorTemperature
+      - other
+commands: {}
+version: 1

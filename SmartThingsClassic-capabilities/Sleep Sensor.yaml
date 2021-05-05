@@ -1,0 +1,23 @@
+# reviewed 2018-01-11
+name: Sleep Sensor
+status: live
+attributes:
+  sleeping:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - not sleeping # if ever replaced deal with this space (awake)
+            - sleeping
+      required: ["value"]
+    type: ENUM
+    values:
+      - not sleeping
+      - sleeping
+commands: {
+  }
+public: true
+id: sleepSensor
+version: 1

@@ -1,0 +1,26 @@
+name: Video Stream
+status: proposed
+attributes:
+  stream:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: JsonObject
+      required:
+        - value
+    type: JSON_OBJECT
+    actedOnBy:
+      - startStream
+      - stopStream
+commands:
+  startStream:
+    arguments: [
+      ]
+  stopStream:
+    arguments: [
+      ]
+public: true
+id: videoStream
+ocfResourceType: x.com.st.videostream
+version: 1

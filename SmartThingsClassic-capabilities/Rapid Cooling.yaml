@@ -1,0 +1,36 @@
+name: Rapid Cooling
+status: proposed
+attributes:
+  rapidCooling:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - 'off'
+            - 'on'
+      required: ["value"]
+    type: ENUM
+    values:
+      - 'off'
+      - 'on'
+    setter: setRapidCooling
+commands:
+  setRapidCooling:
+    arguments:
+    - name: rapidCooling
+      required: true
+      schema:
+        type: string
+        enum:
+          - 'off'
+          - 'on'
+      type: ENUM
+      values:
+        - 'off'
+        - 'on'
+public: true
+id: rapidCooling
+ocfResourceType: x.com.st.rapidcooling
+version: 1

@@ -1,0 +1,22 @@
+# reviewed 2018-01-09
+name: Carbon Monoxide Detector
+status: live
+attributes:
+  carbonMonoxide:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: CarbonMonoxideState
+      required: ["value"]
+    type: ENUM
+    values:
+      - clear
+      - detected
+      - tested
+commands: {
+  }
+public: true
+id: carbonMonoxideDetector
+ocfResourceType: x.com.st.carbonmonoxidedetector
+version: 1

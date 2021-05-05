@@ -1,0 +1,48 @@
+# reviewed 2018-02-22
+name: Lock
+status: proposed
+attributes:
+  lock:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: LockState
+        data:
+          type: object
+          properties:
+            method:
+              type: string
+              enum:
+                - manual
+                - keypad
+                - auto
+                - command
+            codeId:
+              type: string
+            timeout:
+              $ref: Iso8601Date
+      required:
+        - value
+    type: ENUM
+    values:
+      - locked
+      - unknown
+      - unlocked
+      - unlocked with timeout
+    enumCommands:
+      - command: lock
+        value: locked
+      - command: unlock
+        value: unlocked
+commands:
+  lock:
+    arguments: [
+      ]
+  unlock:
+    arguments: [
+      ]
+public: true
+id: lock
+ocfResourceType: oic.r.lock.status
+version: 1

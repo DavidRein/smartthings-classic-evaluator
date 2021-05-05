@@ -1,0 +1,61 @@
+name: Media Input Source
+status: proposed
+attributes:
+  inputSource:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MediaSource
+      required: ["value"]
+    type: ENUM
+    values:
+      - AM
+      - CD
+      - FM
+      - HDMI
+      - HDMI2
+      - USB
+      - YouTube
+      - aux
+      - bluetooth
+      - digital
+      - melon
+      - wifi
+    setter: setInputSource
+  supportedInputSources:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: MediaSource
+      required: ["value"]
+
+    type: JSON_OBJECT
+commands:
+  setInputSource:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: MediaSource
+      type: ENUM
+      values:
+        - AM
+        - CD
+        - FM
+        - HDMI
+        - HDMI2
+        - USB
+        - YouTube
+        - aux
+        - bluetooth
+        - digital
+        - melon
+        - wifi
+public: true
+id: mediaInputSource
+ocfResourceType: x.com.st.mediainputsource
+version: 1

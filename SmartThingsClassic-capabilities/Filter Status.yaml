@@ -1,0 +1,23 @@
+name: Filter Status
+status: proposed
+attributes:
+  filterStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - normal
+            - replace
+      required: ["value"]
+    type: ENUM
+    values:
+      - normal
+      - replace
+commands: {
+  }
+public: true
+id: filterStatus
+ocfResourceType: x.com.st.filter
+version: 1

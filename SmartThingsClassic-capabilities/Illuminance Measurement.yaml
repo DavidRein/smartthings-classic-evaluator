@@ -1,0 +1,26 @@
+# reviewed 2018-01-09
+name: Illuminance Measurement
+status: live
+attributes:
+  illuminance:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+          maximum: 100000
+        unit:
+          type: string
+          enum:
+            - lux
+          default: lux
+      required: ["value"]
+    type: NUMBER
+    unit: lux
+commands: {
+  }
+public: true
+id: illuminanceMeasurement
+ocfResourceType: oic.r.sensor.illuminance
+version: 1

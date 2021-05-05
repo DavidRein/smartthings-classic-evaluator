@@ -1,0 +1,5513 @@
+{
+  "devicehandlers": [
+    {
+      "axis-gear-st": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadePreset",
+          "SwitchLevel",
+          "Battery",
+          "Refresh",
+          "HealthCheck",
+          "Actuator",
+          "Configuration",
+          "Switch"
+        ],
+        "loose_commands": [
+          "ShadesUp",
+          "ShadesDown",
+          "stop",
+          "getversion"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "acceleration-sensor-capability": {
+        "capabilities": [
+          "AccelerationSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "alarm-capability": {
+        "capabilities": [
+          "Alarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "button-capability": {
+        "capabilities": [
+          "Button"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "contact-sensor-capability": {
+        "capabilities": [
+          "ContactSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "illuminance-measurement-capability": {
+        "capabilities": [
+          "IlluminanceMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "lock-capability": {
+        "capabilities": [
+          "Lock"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "momentary-capability": {
+        "capabilities": [
+          "Momentary"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "motion-sensor-capability": {
+        "capabilities": [
+          "MotionSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "presence-sensor-capability": {
+        "capabilities": [
+          "PresenceSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "relative-humidity-measurement-capability": {
+        "capabilities": [
+          "RelativeHumidityMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "switch-capability": {
+        "capabilities": [
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "switch-level-capability": {
+        "capabilities": [
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "temperature-measurement-capability": {
+        "capabilities": [
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "thermostat-capability": {
+        "capabilities": [
+          "Thermostat"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "three-axis-capability": {
+        "capabilities": [
+          "ThreeAxis"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "water-sensor-capability": {
+        "capabilities": [
+          "WaterSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "beaconthing": {
+        "capabilities": [
+          "Beacon",
+          "PresenceSensor",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "setPresence",
+          "arrived",
+          "left"
+        ],
+        "loose_attributes": [
+          "getversion",
+          "getversion"
+        ]
+      }
+    },
+    {
+      "obything-music": {
+        "capabilities": [
+          "MusicPlayer",
+          "Refresh",
+          "Switch"
+        ],
+        "loose_commands": [
+          "playTrackAtVolume",
+          "playTrackAndResume",
+          "playTextAndResume",
+          "playTrackAndRestore",
+          "playTextAndRestore",
+          "playSoundAndTrack"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "curb-power-meter": {
+        "capabilities": [
+          "PowerMeter",
+          "EnergyMeter"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "netatmo-additional-module": {
+        "capabilities": [
+          "Sensor",
+          "RelativeHumidityMeasurement",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "playSoundAndTrack"
+        ]
+      }
+    },
+    {
+      "netatmo-basestation": {
+        "capabilities": [
+          "Sensor",
+          "RelativeHumidityMeasurement",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "playSoundAndTrack",
+          "playSoundAndTrack",
+          "playSoundAndTrack"
+        ]
+      }
+    },
+    {
+      "netatmo-outdoor-module": {
+        "capabilities": [
+          "Sensor",
+          "RelativeHumidityMeasurement",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "netatmo-rain": {
+        "capabilities": [
+          "Sensor"
+        ],
+        "loose_commands": [
+          "poll"
+        ],
+        "loose_attributes": [
+          "playSoundAndTrack",
+          "playSoundAndTrack",
+          "playSoundAndTrack",
+          "playSoundAndTrack"
+        ]
+      }
+    },
+    {
+      "ezmultipli": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "IlluminanceMeasurement",
+          "Switch",
+          "ColorControl",
+          "Configuration",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "enertalk-energy-meter": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "inovelli-2-channel-smart-plug-mcd": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "inovelli-2-channel-smart-plug": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "switch-child-device": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-co-sensor-zw5": {
+        "capabilities": [
+          "CarbonMonoxideDetector",
+          "TamperAlert",
+          "TemperatureMeasurement",
+          "Configuration",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "TemperatureAlarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "poll"
+        ]
+      }
+    },
+    {
+      "fibaro-dimmer-2-zw5": {
+        "capabilities": [
+          "Switch",
+          "SwitchLevel",
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset",
+          "clearError"
+        ],
+        "loose_attributes": [
+          "clearError",
+          "clearError",
+          "clearError"
+        ]
+      }
+    },
+    {
+      "fibaro-door-window-sensor-2": {
+        "capabilities": [
+          "ContactSensor",
+          "TamperAlert",
+          "TemperatureMeasurement",
+          "TemperatureAlarm",
+          "Configuration",
+          "Battery",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "clearError"
+        ]
+      }
+    },
+    {
+      "fibaro-door-window-sensor-zw5-with-temperature": {
+        "capabilities": [
+          "Battery",
+          "ContactSensor",
+          "Sensor",
+          "Configuration",
+          "TamperAlert",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-door-window-sensor-zw5": {
+        "capabilities": [
+          "Battery",
+          "ContactSensor",
+          "Sensor",
+          "Configuration",
+          "TamperAlert",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-double-switch-2-usb": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor",
+          "EnergyMeter",
+          "PowerMeter",
+          "Refresh",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-double-switch-2-zw5": {
+        "capabilities": [
+          "Switch",
+          "EnergyMeter",
+          "PowerMeter",
+          "Button",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-flood-sensor-zw5": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "TamperAlert",
+          "TemperatureMeasurement",
+          "WaterSensor",
+          "PowerSource",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "forceSync"
+        ],
+        "loose_attributes": [
+          "reset",
+          "reset"
+        ]
+      }
+    },
+    {
+      "fibaro-motion-sensor-zw5": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "IlluminanceMeasurement",
+          "MotionSensor",
+          "Sensor",
+          "TamperAlert",
+          "TemperatureMeasurement",
+          "HealthCheck",
+          "ThreeAxis"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-single-switch-2-zw5": {
+        "capabilities": [
+          "Switch",
+          "EnergyMeter",
+          "PowerMeter",
+          "Button",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-wall-plug-eu-zw5": {
+        "capabilities": [
+          "Switch",
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-wall-plug-us-zw5": {
+        "capabilities": [
+          "Switch",
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-wall-plug-usb": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-walli-dimmer-switch": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "EnergyMeter",
+          "HealthCheck",
+          "PowerMeter",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-walli-double-switch": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "HealthCheck",
+          "EnergyMeter",
+          "PowerMeter",
+          "Refresh",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-walli-roller-shutter-driver": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadeLevel",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "HealthCheck",
+          "Configuration",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-walli-roller-shutter-venetian": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadeLevel",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "HealthCheck",
+          "Configuration",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-walli-roller-shutter": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadeLevel",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "HealthCheck",
+          "Configuration",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "gatorsystem-homewatcher": {
+        "capabilities": [
+          "MotionSensor",
+          "Battery",
+          "ContactSensor",
+          "PresenceSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "iblinds-zwave": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadePreset",
+          "SwitchLevel",
+          "Battery",
+          "Refresh",
+          "Actuator",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "stop"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "coopboss-h3vx": {
+        "capabilities": [
+          "Refresh",
+          "Polling",
+          "Sensor",
+          "Actuator",
+          "Configuration",
+          "TemperatureMeasurement",
+          "DoorControl",
+          "Switch"
+        ],
+        "loose_commands": [
+          "closeDoor",
+          "closeDoorHiI",
+          "openDoor",
+          "autoCloseOn",
+          "autoCloseOff",
+          "autoOpenOn",
+          "autoOpenOff",
+          "setCloseLevelTo",
+          "setOpenLevelTo",
+          "setSensitivityLevel",
+          "Aux1On",
+          "Aux1Off",
+          "Aux2On",
+          "Aux2Off",
+          "updateTemp1",
+          "updateTemp2",
+          "updateSun",
+          "setNewBaseCurrent",
+          "setNewPhotoCalibration",
+          "readNewPhotoCalibration",
+          "readBaseCurrentNE",
+          "setBaseCurrentNE",
+          "updateSensitivity",
+          "updateCloseLightLevel",
+          "updateOpenLightLevel"
+        ],
+        "loose_attributes": [
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel",
+          "updateOpenLightLevel"
+        ]
+      }
+    },
+    {
+      "jawbone-user": {
+        "capabilities": [
+          "Refresh",
+          "Polling",
+          "Button",
+          "SleepSensor",
+          "StepSensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "keen-home-smart-vent": {
+        "capabilities": [
+          "SwitchLevel",
+          "Switch",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "TemperatureMeasurement",
+          "Battery",
+          "HealthCheck",
+          "AtmosphericPressureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "plantlink": {
+        "capabilities": [
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "setStatusIcon",
+          "setPlantFuelLevel",
+          "setBatteryLevel",
+          "setInstallSmartApp"
+        ],
+        "loose_attributes": [
+          "setInstallSmartApp",
+          "setInstallSmartApp",
+          "setInstallSmartApp",
+          "setInstallSmartApp"
+        ]
+      }
+    },
+    {
+      "spruce-controller": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "spruce-sensor": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "RelativeHumidityMeasurement",
+          "TemperatureMeasurement",
+          "Sensor",
+          "HealthCheck",
+          "Polling"
+        ],
+        "loose_commands": [
+          "resetHumidity",
+          "refresh"
+        ],
+        "loose_attributes": [
+          "setInstallSmartApp",
+          "setInstallSmartApp"
+        ]
+      }
+    },
+    {
+      "qubino-3-phase-meter": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "Sensor",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "qubino-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "EnergyMeter",
+          "HealthCheck",
+          "PowerMeter",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "qubino-flush-2-relay": {
+        "capabilities": [
+          "Switch",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "qubino-flush-shutter": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadeLevel",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "qubino-temperature-sensor": {
+        "capabilities": [
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simple-sync": {
+        "capabilities": [
+          "MediaController"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "rooms-beautiful-curtain": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "WindowShade",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "cont"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "samsung-smart-doorlock": {
+        "capabilities": [
+          "Actuator",
+          "Lock",
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "sihas-multipurpose-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Battery",
+          "TemperatureMeasurement",
+          "IlluminanceMeasurement",
+          "RelativeHumidityMeasurement",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "dm2500zb-sinope-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "cont"
+        ]
+      }
+    },
+    {
+      "rm3250zb-sinope-load-controller": {
+        "capabilities": [
+          "Refresh",
+          "Switch",
+          "Configuration",
+          "Actuator",
+          "PowerMeter",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "sw2500zb-sinope-switch": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "th1123zb-th1124zb-sinope-thermostat": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "heatLevelUp",
+          "heatLevelDown"
+        ],
+        "loose_attributes": [
+          "cont",
+          "cont",
+          "cont",
+          "cont",
+          "cont"
+        ]
+      }
+    },
+    {
+      "th1300zb-sinope-thermostat": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "Actuator",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "heatLevelUp",
+          "heatLevelDown"
+        ],
+        "loose_attributes": [
+          "heatLevelDown",
+          "heatLevelDown",
+          "heatLevelDown",
+          "heatLevelDown"
+        ]
+      }
+    },
+    {
+      "th1400zb-sinope-thermostat": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "Actuator",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "heatLevelUp",
+          "heatLevelDown"
+        ],
+        "loose_attributes": [
+          "heatLevelDown",
+          "heatLevelDown",
+          "heatLevelDown"
+        ]
+      }
+    },
+    {
+      "th1500zb-sinope-thermostat": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "Actuator",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "heatLevelUp",
+          "heatLevelDown"
+        ],
+        "loose_attributes": [
+          "heatLevelDown",
+          "heatLevelDown"
+        ]
+      }
+    },
+    {
+      "va4200wz-va4200zb-sinope-valve": {
+        "capabilities": [
+          "Configuration",
+          "Refresh",
+          "Actuator",
+          "Valve",
+          "Battery",
+          "PowerSource",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "wl4200s-wl4200-sinope-water-leak-sensor": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "TemperatureMeasurement",
+          "WaterSensor",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "heatLevelDown"
+        ]
+      }
+    },
+    {
+      "aeon-home-energy-meter-c3": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-home-energy-meter": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Configuration",
+          "Sensor",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-illuminator-module": {
+        "capabilities": [
+          "EnergyMeter",
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Configuration",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-key-fob": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-led-bulb-6": {
+        "capabilities": [
+          "SwitchLevel",
+          "ColorControl",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-led-bulb": {
+        "capabilities": [
+          "SwitchLevel",
+          "ColorControl",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-minimote": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-multisensor-6": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "IlluminanceMeasurement",
+          "UltravioletIndex",
+          "Configuration",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "PowerSource",
+          "TamperAlert"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "reset"
+        ]
+      }
+    },
+    {
+      "aeon-multisensor-gen5": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "IlluminanceMeasurement",
+          "Configuration",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-multisensor": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Configuration",
+          "IlluminanceMeasurement",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-multiwhite-bulb": {
+        "capabilities": [
+          "SwitchLevel",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-outlet": {
+        "capabilities": [
+          "EnergyMeter",
+          "Actuator",
+          "Switch",
+          "Configuration",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-siren": {
+        "capabilities": [
+          "Actuator",
+          "Alarm",
+          "Switch",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "test"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeon-smartstrip": {
+        "capabilities": [
+          "Switch",
+          "EnergyMeter",
+          "PowerMeter",
+          "Refresh",
+          "Configuration",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset",
+          "on$n",
+          "off$n",
+          "reset$n"
+        ],
+        "loose_attributes": [
+          "reset",
+          "reset",
+          "reset"
+        ]
+      }
+    },
+    {
+      "aeotec-doorbell-siren-6": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "TamperAlert",
+          "Alarm",
+          "Chime"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeotec-doorbell-siren-child": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Alarm",
+          "Chime"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "aeotec-wallmote": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "arduino-thingshield": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "arrival-sensor-ha": {
+        "capabilities": [
+          "Tone",
+          "Actuator",
+          "PresenceSensor",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "arrival-sensor": {
+        "capabilities": [
+          "Tone",
+          "Actuator",
+          "SignalStrength",
+          "PresenceSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "blacklisted-device": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "bose-soundtouch": {
+        "capabilities": [
+          "Switch",
+          "Refresh",
+          "MusicPlayer",
+          "HealthCheck",
+          "Sensor",
+          "Actuator"
+        ],
+        "loose_commands": [
+          "preset1",
+          "preset2",
+          "preset3",
+          "preset4",
+          "preset5",
+          "preset6",
+          "aux",
+          "everywhereJoin",
+          "everywhereLeave",
+          "forceOff",
+          "forceOn"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "centralite-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "Configuration",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-button": {
+        "capabilities": [
+          "Button",
+          "HoldableButton",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-color-control": {
+        "capabilities": [
+          "ColorControl",
+          "Actuator"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-contact-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-energy-meter": {
+        "capabilities": [
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-metering-switch": {
+        "capabilities": [
+          "Switch",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-switch-health-power": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor",
+          "HealthCheck",
+          "PowerMeter"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-switch-health": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-switch-multilevel": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-switch": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-temperature-sensor": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "Battery",
+          "HealthCheck",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-thermostat-setpoints": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Refresh",
+          "ThermostatCoolingSetpoint",
+          "ThermostatHeatingSetpoint"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "child-venetian-blind": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "cooper-rf9500": {
+        "capabilities": [
+          "Switch",
+          "SwitchLevel",
+          "Button",
+          "Actuator"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "cree-bulb": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ct100-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "Battery",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "switchMode",
+          "switchFanMode",
+          "lowerHeatingSetpoint",
+          "raiseHeatingSetpoint",
+          "lowerCoolSetpoint",
+          "raiseCoolSetpoint",
+          "poll"
+        ],
+        "loose_attributes": [
+          "reset"
+        ]
+      }
+    },
+    {
+      "danalock": {
+        "capabilities": [
+          "Lock",
+          "Battery",
+          "Polling",
+          "Refresh",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "dawon-zwave-smart-plug": {
+        "capabilities": [
+          "EnergyMeter",
+          "Actuator",
+          "Switch",
+          "PowerMeter",
+          "Refresh",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "dawon-zwave-wall-smart-switch": {
+        "capabilities": [
+          "Configuration",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "dimmer-switch": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Indicator",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "door-shield": {
+        "capabilities": [],
+        "loose_commands": [
+          "open"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "eaton-5-scene-keypad": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "eaton-accessory-dimmer": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "HealthCheck",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "eaton-anyplace-switch": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecobee-sensor": {
+        "capabilities": [
+          "HealthCheck",
+          "Sensor",
+          "TemperatureMeasurement",
+          "MotionSensor",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecobee-switch": {
+        "capabilities": [
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecobee-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "Thermostat",
+          "TemperatureMeasurement",
+          "Sensor",
+          "Refresh",
+          "RelativeHumidityMeasurement",
+          "HealthCheck",
+          "ThermostatCoolingSetpoint",
+          "ThermostatHeatingSetpoint",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "ThermostatOperatingState"
+        ],
+        "loose_commands": [
+          "generateEvent",
+          "resumeProgram",
+          "switchMode",
+          "switchFanMode",
+          "lowerHeatingSetpoint",
+          "raiseHeatingSetpoint",
+          "lowerCoolSetpoint",
+          "raiseCoolSetpoint",
+          "poll"
+        ],
+        "loose_attributes": [
+          "poll",
+          "poll",
+          "poll",
+          "poll",
+          "poll",
+          "poll",
+          "poll"
+        ]
+      }
+    },
+    {
+      "ecolink-water-freeze-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "TemperatureAlarm",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecolink-wireless-siren": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "Alarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecolink-zigbee-water-freeze-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "WaterSensor",
+          "TemperatureMeasurement",
+          "TemperatureAlarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "econet-vent": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Battery",
+          "Refresh",
+          "Sensor",
+          "Polling",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "open",
+          "close"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ecosmart-4button-remote": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "everspring-flood-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "Configuration",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "everspring-illuminance-sensor": {
+        "capabilities": [
+          "IlluminanceMeasurement",
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "everspring-st814": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ezex-smart-electric-switch": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "HealthCheck",
+          "Sensor",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ezex-temp-humidity-sensor": {
+        "capabilities": [
+          "Configuration",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-dimmer": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-door-window-sensor": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-flood-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "TemperatureMeasurement",
+          "Configuration",
+          "Battery",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-heat-controller": {
+        "capabilities": [
+          "ThermostatMode",
+          "Refresh",
+          "Battery",
+          "ThermostatHeatingSetpoint",
+          "HealthCheck",
+          "Thermostat",
+          "ThermostatMode",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [
+          "setThermostatSetpointUp",
+          "setThermostatSetpointDown",
+          "switchMode"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-motion-sensor": {
+        "capabilities": [],
+        "loose_commands": [
+          "resetParams2StDefaults",
+          "listCurrentParams",
+          "updateZwaveParam",
+          "test",
+          "configure"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fibaro-rgbw-controller": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Configuration",
+          "ColorControl",
+          "PowerMeter"
+        ],
+        "loose_commands": [
+          "getDeviceData",
+          "softwhite",
+          "daylight",
+          "warmwhite",
+          "red",
+          "green",
+          "blue",
+          "cyan",
+          "magenta",
+          "orange",
+          "purple",
+          "yellow",
+          "white",
+          "fireplace",
+          "storm",
+          "deepfade",
+          "litefade",
+          "police",
+          "setAdjustedColor",
+          "setWhiteLevel",
+          "test"
+        ],
+        "loose_attributes": [
+          "test"
+        ]
+      }
+    },
+    {
+      "fibaro-smoke-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "SmokeDetector",
+          "TemperatureMeasurement",
+          "HealthCheck",
+          "TamperAlert",
+          "TemperatureAlarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "fidure-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "Polling"
+        ],
+        "loose_commands": [
+          "setThermostatTime",
+          "lock",
+          "Hold"
+        ],
+        "loose_attributes": [
+          "test",
+          "test",
+          "test",
+          "test",
+          "test",
+          "test",
+          "lock",
+          "lock",
+          "lock",
+          "lock",
+          "Hold",
+          "Hold"
+        ]
+      }
+    },
+    {
+      "fortrezz-water-valve": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Valve",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "foscam": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "ImageCapture"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ge-link-bulb": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "SwitchLevel",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "gentle-wake-up-controller": {
+        "capabilities": [
+          "Switch",
+          "TimedSession"
+        ],
+        "loose_commands": [
+          "setPercentComplete"
+        ],
+        "loose_attributes": [
+          "Hold"
+        ]
+      }
+    },
+    {
+      "glentronics-connection-module": {
+        "capabilities": [
+          "Sensor",
+          "WaterSensor",
+          "Battery",
+          "PowerSource",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "harmony-activity": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "huboff",
+          "alloff",
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "home-energy-meter": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Refresh",
+          "Polling",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "homeseer-multisensor": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "Configuration",
+          "IlluminanceMeasurement",
+          "Sensor",
+          "Battery"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "hue-bloom": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "ColorControl",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [
+          "setAdjustedColor",
+          "reset",
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "hue-bridge": {
+        "capabilities": [
+          "Bridge",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "refresh",
+          "refresh",
+          "refresh"
+        ]
+      }
+    },
+    {
+      "hue-bulb": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "ColorControl",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [
+          "setAdjustedColor",
+          "reset",
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "hue-lux-bulb": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "hue-white-ambiance-bulb": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ikea-button": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ikea-motion-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "MotionSensor",
+          "Sensor",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "inovelli-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "EnergyMeter",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "SwitchLevel",
+          "PowerMeter"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "leaksmart-water-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "WaterSensor",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "life360-user": {
+        "capabilities": [
+          "PresenceSensor",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "light-sensor": {
+        "capabilities": [
+          "IlluminanceMeasurement",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "logitech-harmony-hub-c2c": {
+        "capabilities": [
+          "MediaController",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "activityoff",
+          "alloff",
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "mimolite-garage-door-controller": {
+        "capabilities": [
+          "Configuration",
+          "Polling",
+          "Switch",
+          "Refresh",
+          "ContactSensor",
+          "Light"
+        ],
+        "loose_commands": [
+          "on",
+          "off"
+        ],
+        "loose_attributes": [
+          "refresh"
+        ]
+      }
+    },
+    {
+      "mobile-presence-occupancy": {
+        "capabilities": [
+          "PresenceSensor",
+          "OccupancySensor",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "mobile-presence": {
+        "capabilities": [
+          "PresenceSensor",
+          "OccupancySensor",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "momentary-button-tile": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Momentary",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "motion-detector": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "MotionSensor",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "nyce-motion-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "nyce-open-closed-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "ContactSensor",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "on-off-button-tile": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "on-off-shield": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "open-closed-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "Orvibo-Contact-Sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "ContactSensor",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "Orvibo-Gas-detector": {
+        "capabilities": [
+          "SmokeDetector",
+          "Configuration",
+          "HealthCheck",
+          "Sensor",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "orvibo-Moisture-Sensor": {
+        "capabilities": [
+          "Configuration",
+          "Refresh",
+          "WaterSensor",
+          "Sensor",
+          "HealthCheck",
+          "Battery"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "ozom-smart-siren": {
+        "capabilities": [
+          "Actuator",
+          "Alarm",
+          "Switch",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "particulate-detector": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "pet-feeder-shield": {
+        "capabilities": [],
+        "loose_commands": [
+          "feed"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "philio-multiple-sound-siren": {
+        "capabilities": [
+          "Actuator",
+          "Alarm",
+          "Switch",
+          "HealthCheck",
+          "Chime",
+          "TamperAlert"
+        ],
+        "loose_commands": [
+          "test"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "plant-link": {
+        "capabilities": [
+          "RelativeHumidityMeasurement",
+          "Battery",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "qubino-flush-thermostat": {
+        "capabilities": [
+          "Thermostat",
+          "ThermostatMode",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "TemperatureMeasurement",
+          "PowerMeter",
+          "EnergyMeter",
+          "Configuration",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "changeMode"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "rgbw-light": {
+        "capabilities": [
+          "SwitchLevel",
+          "ColorControl",
+          "ColorTemperature",
+          "Switch",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "secure-dimmer": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smart-body-analyzer": {
+        "capabilities": [
+          "Polling"
+        ],
+        "loose_commands": [
+          "storeGraphImage"
+        ],
+        "loose_attributes": [
+          "changeMode",
+          "changeMode",
+          "changeMode",
+          "changeMode",
+          "changeMode"
+        ]
+      }
+    },
+    {
+      "smartalert-siren": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Sensor",
+          "Alarm",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "test"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartpower-dimming-outlet": {
+        "capabilities": [
+          "Switch",
+          "SwitchLevel",
+          "PowerMeter",
+          "Configuration",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "Outlet",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartpower-outlet-v1": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Sensor",
+          "Outlet"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartpower-outlet": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "PowerMeter",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Outlet"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-button": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "TemperatureMeasurement",
+          "Button",
+          "HoldableButton",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-garage-door-multi": {
+        "capabilities": [
+          "ThreeAxis",
+          "ContactSensor",
+          "AccelerationSensor",
+          "SignalStrength",
+          "TemperatureMeasurement",
+          "Sensor",
+          "Battery"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-garage-door-sensor-button": {
+        "capabilities": [
+          "ThreeAxis",
+          "DoorControl",
+          "ContactSensor",
+          "Actuator",
+          "AccelerationSensor",
+          "SignalStrength",
+          "TemperatureMeasurement",
+          "Sensor",
+          "Battery"
+        ],
+        "loose_commands": [
+          "actuate"
+        ],
+        "loose_attributes": [
+          "test",
+          "test"
+        ]
+      }
+    },
+    {
+      "smartsense-moisture-sensor": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "TemperatureMeasurement",
+          "WaterSensor",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-moisture": {
+        "capabilities": [
+          "WaterSensor",
+          "Sensor",
+          "Battery",
+          "TemperatureMeasurement",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-motion-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Battery",
+          "TemperatureMeasurement",
+          "Refresh",
+          "HealthCheck",
+          "Sensor",
+          "FirmwareUpdate"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-motion": {
+        "capabilities": [
+          "SignalStrength",
+          "MotionSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-multi-sensor": {
+        "capabilities": [
+          "ThreeAxis",
+          "Battery",
+          "Configuration",
+          "Sensor",
+          "ContactSensor",
+          "AccelerationSensor",
+          "Refresh",
+          "TemperatureMeasurement",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-multi": {
+        "capabilities": [
+          "ThreeAxis",
+          "ContactSensor",
+          "AccelerationSensor",
+          "SignalStrength",
+          "TemperatureMeasurement",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-open-closed-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "ContactSensor",
+          "Refresh",
+          "TemperatureMeasurement",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-temp-humidity-sensor": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartsense-virtual-open-closed": {
+        "capabilities": [
+          "ThreeAxis",
+          "ContactSensor",
+          "AccelerationSensor",
+          "SignalStrength",
+          "TemperatureMeasurement",
+          "Sensor",
+          "Battery"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smartweather-station-tile": {
+        "capabilities": [
+          "IlluminanceMeasurement",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "UltravioletIndex",
+          "WindSpeed",
+          "Stsmartweather.windSpeed",
+          "Stsmartweather.windDirection",
+          "Stsmartweather.apparentTemperature",
+          "Stsmartweather.astronomicalData",
+          "Stsmartweather.precipitation",
+          "Stsmartweather.ultravioletDescription",
+          "Stsmartweather.weatherAlert",
+          "Stsmartweather.weatherForecast",
+          "Stsmartweather.weatherSummary",
+          "Sensor",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "spark": {
+        "capabilities": [
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "springs-window-fashions-remote": {
+        "capabilities": [
+          "Battery"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "springs-window-fashions-shade": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadePreset",
+          "Battery",
+          "Refresh",
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "stop"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "sylvania-ultra-iq": {
+        "capabilities": [
+          "SwitchLevel",
+          "Configuration",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "temperature-sensor": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-alarm": {
+        "capabilities": [
+          "Alarm",
+          "Sensor",
+          "Actuator",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-button": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "push1",
+          "hold1"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-color-control": {
+        "capabilities": [
+          "ColorControl",
+          "Sensor",
+          "Actuator",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-contact-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "open",
+          "close"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-device-preferences": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-dimmable-bulb": {
+        "capabilities": [
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "Light",
+          "Switch",
+          "SwitchLevel",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-dimmer-switch": {
+        "capabilities": [
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "Switch",
+          "SwitchLevel",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-garage-door-opener": {
+        "capabilities": [
+          "Actuator",
+          "DoorControl",
+          "ContactSensor",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-lock": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "HealthCheck",
+          "Lock",
+          "Battery",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [
+          "jam",
+          "setBatteryLevel",
+          "setJamNextOperation",
+          "clearJamNextOperation"
+        ],
+        "loose_attributes": [
+          "clearJamNextOperation"
+        ]
+      }
+    },
+    {
+      "simulated-minimote": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "push1",
+          "push2",
+          "push3",
+          "push4",
+          "hold1",
+          "hold2",
+          "hold3",
+          "hold4"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-motion-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "active",
+          "inactive"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-presence-sensor": {
+        "capabilities": [
+          "PresenceSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "arrived",
+          "departed"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-refrigerator-door": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "open",
+          "close"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-refrigerator-temperature-control": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "ThermostatCoolingSetpoint",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "tempUp",
+          "tempDown",
+          "setpointUp",
+          "setpointDown"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-refrigerator": {
+        "capabilities": [
+          "ContactSensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-rgb-bulb": {
+        "capabilities": [
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "Light",
+          "Switch",
+          "SwitchLevel",
+          "ColorControl",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-rgbw-bulb": {
+        "capabilities": [
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "Light",
+          "Switch",
+          "SwitchLevel",
+          "ColorControl",
+          "ColorTemperature",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-smoke-alarm": {
+        "capabilities": [
+          "SmokeDetector",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "smoke",
+          "test",
+          "clear"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-switch": {
+        "capabilities": [
+          "Switch",
+          "RelaySwitch",
+          "Sensor",
+          "Actuator",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "onPhysical",
+          "offPhysical"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-temperature-sensor": {
+        "capabilities": [
+          "TemperatureMeasurement",
+          "SwitchLevel",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "up",
+          "down",
+          "setTemperature"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-thermostat": {
+        "capabilities": [
+          "Sensor",
+          "Actuator",
+          "HealthCheck",
+          "Thermostat",
+          "RelativeHumidityMeasurement",
+          "Configuration",
+          "Refresh"
+        ],
+        "loose_commands": [
+          "tempUp",
+          "tempDown",
+          "heatUp",
+          "heatDown",
+          "coolUp",
+          "coolDown",
+          "setpointUp",
+          "setpointDown",
+          "cycleMode",
+          "cycleFanMode",
+          "setTemperature",
+          "setHumidityPercent",
+          "delayedEvaluate",
+          "runSimHvacCycle",
+          "markDeviceOnline",
+          "markDeviceOffline"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-water-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "wet",
+          "dry"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-water-valve": {
+        "capabilities": [
+          "Actuator",
+          "Valve",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-white-color-temperature-bulb": {
+        "capabilities": [
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "Light",
+          "Switch",
+          "SwitchLevel",
+          "ColorTemperature",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "simulated-window-shade": {
+        "capabilities": [
+          "Actuator",
+          "WindowShade",
+          "WindowShadePreset",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "openPartially",
+          "closePartially",
+          "partiallyOpen",
+          "opening",
+          "closing",
+          "opened",
+          "closed",
+          "unknown"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "thing": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-carousel": {
+        "capabilities": [
+          "Thermostat",
+          "RelativeHumidityMeasurement"
+        ],
+        "loose_commands": [
+          "tempUp",
+          "tempDown",
+          "heatUp",
+          "heatDown",
+          "coolUp",
+          "coolDown",
+          "setTemperature"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-colorwheel": {
+        "capabilities": [
+          "ColorControl"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-presence": {
+        "capabilities": [
+          "PresenceSensor"
+        ],
+        "loose_commands": [
+          "arrived",
+          "departed"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-slider": {
+        "capabilities": [
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "setRangedLevel"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-standard": {
+        "capabilities": [
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-basic-value": {
+        "capabilities": [
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-multiattribute-generic": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "levelUp",
+          "levelDown",
+          "randomizeLevel"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-multiattribute-lighting": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "ColorControl",
+          "PowerMeter",
+          "Switch",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "setAdjustedColor",
+          "reset",
+          "refresh"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-multiattribute-mediaplayer": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "MusicPlayer"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-multiattribute-thermostat": {
+        "capabilities": [
+          "Thermostat",
+          "RelativeHumidityMeasurement"
+        ],
+        "loose_commands": [
+          "tempUp",
+          "tempDown",
+          "heatUp",
+          "heatDown",
+          "coolUp",
+          "coolDown",
+          "setTemperature"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tile-multiattribute-videoplayer": {
+        "capabilities": [
+          "Configuration",
+          "VideoCamera",
+          "VideoCapture",
+          "Refresh",
+          "Switch"
+        ],
+        "loose_commands": [
+          "start",
+          "stop",
+          "setProfileHD",
+          "setProfileSDH",
+          "setProfileSDL"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "tyco-door-window-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "ContactSensor",
+          "Refresh",
+          "TemperatureMeasurement",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "unknown": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "viconics-schneider-room-controller": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "OccupancySensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "ThermostatMode",
+          "FanSpeed",
+          "ThermostatFanMode",
+          "ThermostatCoolingSetpoint",
+          "ThermostatHeatingSetpoint",
+          "ThermostatOperatingState",
+          "Configuration",
+          "HealthCheck",
+          "Refresh"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "virtual-dimmer-switch": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "virtual-switch": {
+        "capabilities": [
+          "Actuator",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "wattvision": {
+        "capabilities": [
+          "PowerMeter",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "setProfileSDL"
+        ]
+      }
+    },
+    {
+      "wemo-bulb": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "wemo-light-switch": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "subscribe",
+          "resubscribe",
+          "unsubscribe",
+          "get"
+        ],
+        "loose_attributes": [
+          "setProfileSDL"
+        ]
+      }
+    },
+    {
+      "wemo-motion": {
+        "capabilities": [
+          "MotionSensor",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "subscribe",
+          "resubscribe",
+          "unsubscribe"
+        ],
+        "loose_attributes": [
+          "get"
+        ]
+      }
+    },
+    {
+      "wemo-switch": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "subscribe",
+          "resubscribe",
+          "unsubscribe",
+          "setOffline"
+        ],
+        "loose_attributes": [
+          "unsubscribe"
+        ]
+      }
+    },
+    {
+      "wireless-scale": {
+        "capabilities": [
+          "Polling"
+        ],
+        "loose_commands": [
+          "storeGraphImage"
+        ],
+        "loose_attributes": [
+          "setOffline",
+          "setOffline",
+          "setOffline",
+          "setOffline"
+        ]
+      }
+    },
+    {
+      "z-wave-binary-switch-endpoint-siren": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "Alarm"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-accessory-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Button",
+          "SwitchLevel",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-battery-accessory-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "Switch",
+          "SwitchLevel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-button": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-co-sensor": {
+        "capabilities": [
+          "CarbonMonoxideDetector",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-curtain": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "SwitchLevel",
+          "StatelessCurtainPowerButton",
+          "WindowShade"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-dimmer-power": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "PowerMeter",
+          "Sensor",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-dimmer-with-motion-sensor": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Light",
+          "Switch",
+          "SwitchLevel",
+          "MotionSensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-lock-without-codes": {
+        "capabilities": [
+          "Actuator",
+          "Lock",
+          "Refresh",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-lock": {
+        "capabilities": [
+          "Actuator",
+          "Lock",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "LockCodes",
+          "Battery",
+          "Configuration",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-metering-dimmer": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "PowerMeter",
+          "EnergyMeter",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-metering-plug-power-consumption-report": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "HealthCheck",
+          "Sensor",
+          "Configuration",
+          "PowerConsumptionReport"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-metering-plug": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "HealthCheck",
+          "Sensor",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-motion-detector": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-motion-temp-humidity-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Battery",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-multi-button": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Button",
+          "HoldableButton",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-multi-switch-power": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "Switch",
+          "PowerMeter"
+        ],
+        "loose_commands": [
+          "childOn",
+          "childOff"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-multi-switch": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "Switch"
+        ],
+        "loose_commands": [
+          "childOn",
+          "childOff"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-non-holdable-button": {
+        "capabilities": [
+          "Configuration",
+          "Battery",
+          "Refresh",
+          "Button",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-plugin-motion-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Configuration",
+          "Refresh",
+          "HealthCheck",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-power-meter": {
+        "capabilities": [
+          "EnergyMeter",
+          "PowerMeter",
+          "Refresh",
+          "HealthCheck",
+          "Sensor",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-range-extender": {
+        "capabilities": [
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-rgb-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorControl",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-rgbw-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorControl",
+          "ColorTemperature",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "childOff"
+        ]
+      }
+    },
+    {
+      "zigbee-scene-keypad": {
+        "capabilities": [
+          "Actuator",
+          "Button",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-smoke-sensor": {
+        "capabilities": [
+          "SmokeDetector",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-sound-sensor": {
+        "capabilities": [
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "SoundSensor",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-switch-power": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "PowerMeter",
+          "Sensor",
+          "Switch",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-switch": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "Switch",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "ThermostatCoolingSetpoint",
+          "ThermostatHeatingSetpoint",
+          "ThermostatOperatingState",
+          "Configuration",
+          "Battery",
+          "PowerSource",
+          "HealthCheck",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-valve": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Configuration",
+          "PowerSource",
+          "HealthCheck",
+          "Refresh",
+          "Valve"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-white-color-temperature-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorTemperature",
+          "Configuration",
+          "HealthCheck",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "childOff"
+        ]
+      }
+    },
+    {
+      "zigbee-window-shade-battery": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "Configuration",
+          "Refresh",
+          "WindowShade",
+          "WindowShadePreset",
+          "HealthCheck",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "pause"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zigbee-window-shade": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Refresh",
+          "WindowShade",
+          "WindowShadePreset",
+          "HealthCheck",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "pause"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zll-dimmer-bulb": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zll-rgb-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorControl",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zll-rgbw-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorControl",
+          "ColorTemperature",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "pause"
+        ]
+      }
+    },
+    {
+      "zll-white-color-temperature-bulb-5000k": {
+        "capabilities": [
+          "Actuator",
+          "ColorTemperature",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "pause"
+        ]
+      }
+    },
+    {
+      "zll-white-color-temperature-bulb": {
+        "capabilities": [
+          "Actuator",
+          "ColorTemperature",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Switch",
+          "SwitchLevel",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "pause"
+        ]
+      }
+    },
+    {
+      "zooz-4-in-1-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "IlluminanceMeasurement",
+          "Configuration",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "TamperAlert"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zooz-multisiren": {
+        "capabilities": [
+          "Actuator",
+          "Alarm",
+          "Switch",
+          "HealthCheck",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "Battery",
+          "TamperAlert",
+          "Refresh",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zooz-power-strip-outlet": {
+        "capabilities": [
+          "Switch",
+          "Actuator",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zooz-power-strip": {
+        "capabilities": [
+          "Switch",
+          "Refresh",
+          "Actuator",
+          "Sensor",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-basic-heat-alarm": {
+        "capabilities": [
+          "TemperatureAlarm",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-basic-smoke-alarm": {
+        "capabilities": [
+          "SmokeDetector",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-basic-window-shade": {
+        "capabilities": [
+          "StatelessCurtainPowerButton",
+          "Configuration",
+          "Actuator",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "open",
+          "close",
+          "pause"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-battery-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "RelativeHumidityMeasurement",
+          "Configuration",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Battery"
+        ],
+        "loose_commands": [
+          "switchMode",
+          "switchFanMode",
+          "lowerHeatingSetpoint",
+          "raiseHeatingSetpoint",
+          "lowerCoolSetpoint",
+          "raiseCoolSetpoint"
+        ],
+        "loose_attributes": [
+          "pause"
+        ]
+      }
+    },
+    {
+      "zwave-binary-switch-endpoint": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-button": {
+        "capabilities": [
+          "Button",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-controller": {
+        "capabilities": [],
+        "loose_commands": [
+          "on",
+          "off"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-device-multichannel": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "SwitchLevel",
+          "Refresh",
+          "Configuration",
+          "Sensor",
+          "ZwMultichannel"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-device": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "SwitchLevel",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-dimmer-switch-generic": {
+        "capabilities": [
+          "SwitchLevel",
+          "Actuator",
+          "HealthCheck",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-door-temp-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-door-window-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "TamperAlert"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-dual-switch": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-fan-controller": {
+        "capabilities": [
+          "SwitchLevel",
+          "Switch",
+          "FanSpeed",
+          "HealthCheck",
+          "Actuator",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "low",
+          "medium",
+          "high",
+          "raiseFanSpeed",
+          "lowerFanSpeed"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-garage-door-opener": {
+        "capabilities": [
+          "Actuator",
+          "DoorControl",
+          "HealthCheck",
+          "ContactSensor",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-lock-without-codes": {
+        "capabilities": [
+          "Actuator",
+          "Lock",
+          "Refresh",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-lock": {
+        "capabilities": [
+          "Actuator",
+          "Lock",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "LockCodes",
+          "Battery",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-metering-dimmer": {
+        "capabilities": [
+          "Switch",
+          "Polling",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "SwitchLevel",
+          "Sensor",
+          "Actuator",
+          "HealthCheck",
+          "Light",
+          "Configuration"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-metering-switch-secure": {
+        "capabilities": [
+          "Actuator",
+          "Configuration",
+          "EnergyMeter",
+          "HealthCheck",
+          "Light",
+          "PowerMeter",
+          "Refresh",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-metering-switch": {
+        "capabilities": [
+          "EnergyMeter",
+          "Actuator",
+          "Switch",
+          "PowerMeter",
+          "Refresh",
+          "Configuration",
+          "Sensor",
+          "Light",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-motion-light-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "IlluminanceMeasurement",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-motion-light": {
+        "capabilities": [
+          "Switch",
+          "MotionSensor",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-motion-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "TamperAlert",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-motion-temp-light-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "IlluminanceMeasurement",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "TemperatureMeasurement",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-mouse-trap": {
+        "capabilities": [
+          "Sensor",
+          "Battery",
+          "Configuration",
+          "HealthCheck",
+          "PestControl",
+          "PestControl"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-multi-button": {
+        "capabilities": [
+          "Button",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-multi-metering-switch": {
+        "capabilities": [
+          "Switch",
+          "PowerMeter",
+          "EnergyMeter",
+          "Refresh",
+          "Configuration",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "reset"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-plus-door-window-sensor": {
+        "capabilities": [
+          "ContactSensor",
+          "Configuration",
+          "Battery",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "reset",
+          "reset",
+          "reset",
+          "reset",
+          "reset"
+        ]
+      }
+    },
+    {
+      "zwave-plus-motion-temp-sensor": {
+        "capabilities": [
+          "MotionSensor",
+          "TemperatureMeasurement",
+          "Configuration",
+          "Battery",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "reset",
+          "reset",
+          "reset",
+          "reset",
+          "reset"
+        ]
+      }
+    },
+    {
+      "zwave-radiator-thermostat": {
+        "capabilities": [
+          "Refresh",
+          "Battery",
+          "ThermostatHeatingSetpoint",
+          "HealthCheck",
+          "Thermostat",
+          "ThermostatMode",
+          "TemperatureMeasurement",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-range-extender": {
+        "capabilities": [
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-relay": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "RelaySwitch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-remote": {
+        "capabilities": [],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-sensor": {
+        "capabilities": [
+          "Sensor",
+          "Battery",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "reset"
+        ]
+      }
+    },
+    {
+      "zwave-siren": {
+        "capabilities": [
+          "Actuator",
+          "Alarm",
+          "Battery",
+          "Configuration",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Switch",
+          "TamperAlert",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-smoke-alarm": {
+        "capabilities": [
+          "SmokeDetector",
+          "CarbonMonoxideDetector",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-sound-sensor": {
+        "capabilities": [
+          "SoundSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-switch-battery": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-switch-generic": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-switch-secure": {
+        "capabilities": [
+          "Switch",
+          "Refresh",
+          "Polling",
+          "Actuator",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-switch": {
+        "capabilities": [
+          "Actuator",
+          "Indicator",
+          "Switch",
+          "Refresh",
+          "Sensor",
+          "HealthCheck",
+          "Light"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-temp-light-sensor": {
+        "capabilities": [
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "TemperatureMeasurement",
+          "IlluminanceMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "ThermostatMode",
+          "ThermostatFanMode",
+          "Refresh",
+          "Sensor",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "switchMode",
+          "switchFanMode",
+          "lowerHeatingSetpoint",
+          "raiseHeatingSetpoint",
+          "lowerCoolSetpoint",
+          "raiseCoolSetpoint",
+          "poll"
+        ],
+        "loose_attributes": [
+          "reset"
+        ]
+      }
+    },
+    {
+      "zwave-virtual-momentary-contact-switch": {
+        "capabilities": [
+          "Actuator",
+          "Switch",
+          "Refresh",
+          "Momentary",
+          "Sensor",
+          "RelaySwitch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-water-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-water-temp-humidity-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "TemperatureMeasurement",
+          "RelativeHumidityMeasurement",
+          "TamperAlert",
+          "Battery",
+          "Sensor",
+          "HealthCheck",
+          "Configuration"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-water-temp-light-sensor": {
+        "capabilities": [
+          "WaterSensor",
+          "Sensor",
+          "Battery",
+          "HealthCheck",
+          "TemperatureMeasurement",
+          "IlluminanceMeasurement"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-water-valve": {
+        "capabilities": [
+          "Actuator",
+          "HealthCheck",
+          "Valve",
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "zwave-window-shade": {
+        "capabilities": [
+          "WindowShade",
+          "WindowShadePreset",
+          "Battery",
+          "Refresh",
+          "HealthCheck",
+          "Actuator",
+          "Sensor",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "stop"
+        ],
+        "loose_attributes": []
+      }
+    },
+    {
+      "stelpro-ki-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "TemperatureAlarm",
+          "Thermostat",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "ThermostatHeatingSetpoint",
+          "Configuration",
+          "Sensor",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "setOutdoorTemperature",
+          "quickSetOutTemp",
+          "increaseHeatSetpoint",
+          "decreaseHeatSetpoint",
+          "eco",
+          "updateWeather"
+        ],
+        "loose_attributes": [
+          "stop"
+        ]
+      }
+    },
+    {
+      "stelpro-ki-zigbee-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "TemperatureAlarm",
+          "Thermostat",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "ThermostatHeatingSetpoint",
+          "Configuration",
+          "Sensor",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "setOutdoorTemperature",
+          "quickSetOutTemp",
+          "increaseHeatSetpoint",
+          "decreaseHeatSetpoint",
+          "parameterSetting",
+          "eco",
+          "updateWeather"
+        ],
+        "loose_attributes": [
+          "updateWeather"
+        ]
+      }
+    },
+    {
+      "stelpro-maestro-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "TemperatureMeasurement",
+          "TemperatureAlarm",
+          "RelativeHumidityMeasurement",
+          "Thermostat",
+          "ThermostatMode",
+          "ThermostatOperatingState",
+          "ThermostatHeatingSetpoint",
+          "Configuration",
+          "Sensor",
+          "Refresh",
+          "HealthCheck"
+        ],
+        "loose_commands": [
+          "setOutdoorTemperature",
+          "quickSetOutTemp",
+          "increaseHeatSetpoint",
+          "decreaseHeatSetpoint",
+          "parameterSetting",
+          "updateWeather"
+        ],
+        "loose_attributes": [
+          "updateWeather"
+        ]
+      }
+    },
+    {
+      "timevalve-smart": {
+        "capabilities": [
+          "Valve",
+          "Refresh",
+          "Battery",
+          "TemperatureMeasurement"
+        ],
+        "loose_commands": [
+          "setRemaining",
+          "setTimeout",
+          "setTimeout10",
+          "setTimeout20",
+          "setTimeout30",
+          "setTimeout40",
+          "remainingLevel"
+        ],
+        "loose_attributes": [
+          "remainingLevel",
+          "remainingLevel",
+          "remainingLevel"
+        ]
+      }
+    },
+    {
+      "vision-4-in-1-motion-sensor": {
+        "capabilities": [
+          "Battery",
+          "MotionSensor",
+          "RelativeHumidityMeasurement",
+          "TemperatureMeasurement",
+          "IlluminanceMeasurement",
+          "TamperAlert",
+          "HealthCheck"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "smart-block": {
+        "capabilities": [
+          "SwitchLevel",
+          "Switch"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "remainingLevel",
+          "remainingLevel",
+          "remainingLevel"
+        ]
+      }
+    },
+    {
+      "quirky-wink-eggtray": {
+        "capabilities": [
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [
+          "eggReport"
+        ],
+        "loose_attributes": [
+          "remainingLevel",
+          "remainingLevel",
+          "remainingLevel",
+          "remainingLevel"
+        ]
+      }
+    },
+    {
+      "quirky-wink-nimbus": {
+        "capabilities": [
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "eggReport",
+          "eggReport"
+        ]
+      }
+    },
+    {
+      "quirky-wink-porkfolio": {
+        "capabilities": [
+          "AccelerationSensor",
+          "Battery",
+          "Polling",
+          "Refresh",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "eggReport",
+          "eggReport"
+        ]
+      }
+    },
+    {
+      "quirky-wink-powerstrip": {
+        "capabilities": [
+          "Switch",
+          "Polling",
+          "Refresh",
+          "Sensor",
+          "Actuator"
+        ],
+        "loose_commands": [],
+        "loose_attributes": []
+      }
+    },
+    {
+      "quirky-wink-spotter": {
+        "capabilities": [
+          "Polling",
+          "Battery",
+          "TemperatureMeasurement",
+          "AccelerationSensor",
+          "Refresh",
+          "MotionSensor",
+          "RelativeHumidityMeasurement",
+          "Sensor"
+        ],
+        "loose_commands": [],
+        "loose_attributes": [
+          "eggReport",
+          "eggReport",
+          "eggReport"
+        ]
+      }
+    },
+    {
+      "tcp-bulb": {
+        "capabilities": [
+          "Switch",
+          "Polling",
+          "PowerMeter",
+          "Refresh",
+          "SwitchLevel"
+        ],
+        "loose_commands": [
+          "levelUp",
+          "levelDown",
+          "on",
+          "off",
+          "setBulbPower"
+        ],
+        "loose_attributes": [
+          "eggReport"
+        ]
+      }
+    },
+    {
+      "zen-thermostat": {
+        "capabilities": [
+          "Actuator",
+          "Battery",
+          "HealthCheck",
+          "Refresh",
+          "Sensor",
+          "TemperatureMeasurement",
+          "Thermostat",
+          "ThermostatHeatingSetpoint",
+          "ThermostatCoolingSetpoint",
+          "ThermostatOperatingState",
+          "ThermostatMode",
+          "ThermostatFanMode"
+        ],
+        "loose_commands": [
+          "setpointUp",
+          "setpointDown",
+          "switchMode",
+          "switchFanMode",
+          "poll"
+        ],
+        "loose_attributes": []
+      }
+    }
+  ]
+}

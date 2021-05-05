@@ -1,0 +1,14 @@
+# reviewed 2018-01-30
+name: Thermostat Setpoint
+status: deprecated
+attributes:
+  thermostatSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+commands: {
+  }
+public: true
+id: thermostatSetpoint
+ocfResourceType: x.com.st.temperature.setpoint
+version: 1

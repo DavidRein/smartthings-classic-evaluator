@@ -1,0 +1,37 @@
+# reviewed 2018-02-22
+name: Media Controller
+status: proposed
+attributes:
+  activities:
+    schema:
+       type: object
+       properties:
+         value:
+           $ref: JsonObject
+       required:
+         - value
+    type: JSON_OBJECT
+    actedOnBy:
+      - startActivity
+  currentActivity:
+    schema:
+       type: object
+       properties:
+         value:
+           $ref: String
+       required:
+         - value
+    type: STRING
+    actedOnBy:
+      - startActivity
+commands:
+  startActivity:
+    arguments:
+    - type: STRING
+      required: true
+      schema:
+        $ref: String
+      name: activityId
+public: true
+id: mediaController
+version: 1

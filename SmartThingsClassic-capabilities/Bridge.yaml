@@ -1,0 +1,10 @@
+# reviewed 2018-02-01
+name: Bridge
+status: deprecated
+attributes: {
+  }
+commands: {
+  }
+public: true
+id: bridge
+version: 1

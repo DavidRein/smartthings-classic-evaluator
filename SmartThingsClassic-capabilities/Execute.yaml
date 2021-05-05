@@ -1,0 +1,30 @@
+name: Execute
+status: proposed
+attributes:
+  data:
+    schema:
+       type: object
+       properties:
+         value:
+           $ref: JsonObject
+       required:
+         - value
+    type: JSON_OBJECT
+    actedOnBy:
+      - 'execute'
+commands:
+  'execute':
+    arguments:
+      - name: command
+        required: true
+        type: STRING
+        schema:
+          $ref: String
+      - name: args
+        schema:
+          $ref: JsonObject
+        type: JSON_OBJECT
+        required: false
+public: true
+id: execute
+version: 1

@@ -1,0 +1,234 @@
+# reviewed 2018-01-30
+name: Thermostat
+status: deprecated
+attributes:
+  coolingSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+    setter: setCoolingSetpoint
+  coolingSetpointRange:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            -  $ref: TemperatureValue
+            -  $ref: TemperatureValue
+          minItems: 2
+          maxItems: 2
+      required:
+        - value
+    type: VECTOR3
+  heatingSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+    setter: setHeatingSetpoint
+  heatingSetpointRange:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            -  $ref: TemperatureValue
+            -  $ref: TemperatureValue
+          minItems: 2
+          maxItems: 2
+      required:
+        - value
+    type: VECTOR3
+  schedule:
+    schema:
+       type: object
+       properties:
+         value:
+           $ref: JsonObject
+       required:
+         - value
+    type: JSON_OBJECT
+    setter: setSchedule
+  temperature:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+  thermostatFanMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatFanMode
+      required:
+        - value
+    type: ENUM
+    values:
+      - auto
+      - circulate
+      - followschedule
+      - 'on'
+    setter: setThermostatFanMode
+    enumCommands:
+      - command: fanAuto
+        value: auto
+      - command: fanCirculate
+        value: circulate
+      - command: fanOn
+        value: 'on'
+  supportedThermostatFanModes:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: ThermostatFanMode
+    type: JSON_OBJECT
+  thermostatMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatMode
+      required:
+        - value
+    type: ENUM
+    values:
+      - auto
+      - eco
+      - rush hour
+      - cool
+      - emergency heat
+      - heat
+      - 'off'
+    setter: setThermostatMode
+    enumCommands:
+      - command: auto
+        value: auto
+      - command: cool
+        value: cool
+      - command: emergencyHeat
+        value: emergency heat
+      - command: heat
+        value: heat
+      - command: 'off'
+        value: 'off'
+  supportedThermostatModes:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: ThermostatMode
+    type: JSON_OBJECT
+  thermostatOperatingState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatOperatingState
+      required:
+        - value
+    type: ENUM
+    values:
+      - cooling
+      - fan only
+      - heating
+      - idle
+      - pending cool
+      - pending heat
+      - vent economizer
+  thermostatSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+  thermostatSetpointRange:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            -  $ref: TemperatureValue
+            -  $ref: TemperatureValue
+          minItems: 2
+          maxItems: 2
+    type: VECTOR3
+commands:
+  auto:
+    arguments: [
+      ]
+  cool:
+    arguments: [
+      ]
+  emergencyHeat:
+    arguments: [
+      ]
+  fanAuto:
+    arguments: [
+      ]
+  fanCirculate:
+    arguments: [
+      ]
+  fanOn:
+    arguments: [
+      ]
+  heat:
+    arguments: [
+      ]
+  'off':
+    arguments: [
+      ]
+  setCoolingSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: TemperatureValue
+      type: NUMBER
+  setHeatingSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: TemperatureValue
+      type: NUMBER
+  setSchedule:
+    arguments:
+    - name: schedule
+      required: true
+      schema:
+        $ref: JsonObject
+      type: JSON_OBJECT
+  setThermostatFanMode:
+    arguments:
+    - name: fanmode
+      required: true
+      schema:
+        $ref: ThermostatFanMode
+      type: ENUM
+      values:
+        - auto
+        - circulate
+        - followschedule
+        - 'on'
+  setThermostatMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: ThermostatMode
+      type: ENUM
+      values:
+        - auto
+        - eco
+        - rush hour
+        - cool
+        - emergency heat
+        - heat
+        - 'off'
+public: true
+id: thermostat
+version: 1

@@ -1,0 +1,21 @@
+# reviewed 2018-01-09
+name: Presence Sensor
+status: live
+attributes:
+  presence:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PresenceState
+      required: ["value"]
+    type: ENUM
+    values:
+      - not present
+      - present
+commands: {
+  }
+public: true
+id: presenceSensor
+ocfResourceType: oic.r.sensor.presence
+version: 1

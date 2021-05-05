@@ -1,0 +1,30 @@
+# reviewed 2018-01-11
+name: Bulb
+status: dead
+attributes:
+  switch:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: SwitchState
+      required: ["value"]
+    type: ENUM
+    values:
+      - 'off'
+      - 'on'
+    enumCommands:
+      - command: 'off'
+        value: 'off'
+      - command: 'on'
+        value: 'on'
+commands:
+  'off':
+    arguments: [
+      ]
+  'on':
+    arguments: [
+      ]
+public: true
+id: bulb
+version: 1

@@ -1,0 +1,25 @@
+name: Dust Sensor
+status: proposed
+attributes:
+  fineDustLevel:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+  dustLevel:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required: ["value"]
+    type: NUMBER
+commands: {
+  }
+public: true
+id: dustSensor
+ocfResourceType: x.com.st.dustlevel
+version: 1

@@ -1,0 +1,37 @@
+# reviewed 2018-02-20
+name: Consumable
+status: proposed
+attributes:
+  consumableStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ConsumableState
+      required:
+        - value
+    type: ENUM
+    values:
+      - good
+      - maintenance_required
+      - missing
+      - order
+      - replace
+    setter: setConsumableStatus
+commands:
+  setConsumableStatus:
+    arguments:
+    - name: status
+      required: true
+      schema:
+        $ref: ConsumableState
+      type: ENUM
+      values:
+        - good
+        - maintenance_required
+        - missing
+        - order
+        - replace
+public: true
+id: consumable
+version: 1

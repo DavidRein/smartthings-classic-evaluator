@@ -1,0 +1,12 @@
+# reviewed 2018-2-20
+name: Polling
+status: deprecated
+attributes: {
+  }
+commands:
+  poll:
+    arguments: [
+      ]
+public: true
+id: polling
+version: 1

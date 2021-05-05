@@ -1,0 +1,4285 @@
+{
+  "smartapps": [
+    {
+      "bright-when-dark-and-or-bright-after-sunset": {
+        "capabilities": [
+          "switch",
+          "switchlevel",
+          "motionsensor",
+          "illuminancemeasurement"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setLevel"
+        ],
+        "available_attributes": [
+          "switch",
+          "level",
+          "motion",
+          "illuminance"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 3,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "good-night-house": {
+        "capabilities": [
+          "switch",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "lock"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 4,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "goodnight-ubi": {
+        "capabilities": [
+          "switch",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "jenkins-notifier": {
+        "capabilities": [
+          "switch",
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "switch",
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 5,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "gidjit-hub": {
+        "capabilities": [
+          "switch",
+          "thermostat",
+          "windowshade"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "close",
+          "open",
+          "presetPosition"
+        ],
+        "available_attributes": [
+          "switch",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "windowShade"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 18,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "beaconthings-manager": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "obything-music-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "working-from-home": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "vinli-home-connect": {
+        "capabilities": [
+          "switch",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "lock"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 4,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "curb-control": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "curb-energy-manager": {
+        "capabilities": [
+          "powermeter",
+          "thermostat",
+          "switch"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "power",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "switch"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 15,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "curb-energy-monitor": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "co2-vent": {
+        "capabilities": [
+          "carbondioxidemeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "carbonDioxide",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "netatmo-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "thermostat-auto-off": {
+        "capabilities": [
+          "thermostat",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 13,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "whole-house-fan": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "switch",
+          "thermostat",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "temperature",
+          "switch",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "contact"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 15,
+        "available_attributes_count": 16
+      }
+    },
+    {
+      "humidity-alert": {
+        "capabilities": [
+          "relativehumiditymeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "humidity",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "let-there-be-dark": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "smart-windows": {
+        "capabilities": [
+          "contactsensor",
+          "temperaturemeasurement"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact",
+          "temperature"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "weather-windows": {
+        "capabilities": [
+          "contactsensor",
+          "temperaturemeasurement"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact",
+          "temperature"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "smart-energy-service": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "gideon-smart-home": {
+        "capabilities": [
+          "contactsensor",
+          "switchlevel",
+          "thermostat",
+          "colorcontrol",
+          "colortemperature",
+          "switch",
+          "smokedetector",
+          "windowshade",
+          "garagedoorcontrol",
+          "watersensor",
+          "motionsensor",
+          "presencesensor",
+          "outlet",
+          "powermeter",
+          "lock",
+          "temperaturemeasurement",
+          "battery"
+        ],
+        "available_commands": [
+          "setLevel",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "setColor",
+          "setHue",
+          "setSaturation",
+          "setColorTemperature",
+          "off",
+          "on",
+          "close",
+          "open",
+          "presetPosition",
+          "close",
+          "open",
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "contact",
+          "level",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "color",
+          "hue",
+          "saturation",
+          "colorTemperature",
+          "switch",
+          "smoke",
+          "windowShade",
+          "door",
+          "water",
+          "motion",
+          "presence",
+          "switch",
+          "power",
+          "lock",
+          "temperature",
+          "battery"
+        ],
+        "capabilities_count": 17,
+        "available_commands_count": 29,
+        "available_attributes_count": 31
+      }
+    },
+    {
+      "gideon": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "presencesensor",
+          "lock",
+          "temperaturemeasurement"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "presence",
+          "lock",
+          "temperature"
+        ],
+        "capabilities_count": 5,
+        "available_commands_count": 4,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "coffee-after-shower": {
+        "capabilities": [
+          "relativehumiditymeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "humidity",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "door-knocker": {
+        "capabilities": [
+          "accelerationsensor",
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "acceleration",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "forgiving-security": {
+        "capabilities": [
+          "contactsensor",
+          "motionsensor",
+          "alarm",
+          "switch"
+        ],
+        "available_commands": [
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "motion",
+          "alarm",
+          "switch"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 6,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "hall-light-welcome-home": {
+        "capabilities": [
+          "presencesensor",
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "presence",
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "nobody-home": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "ready-for-rain": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "safe-watch": {
+        "capabilities": [
+          "contactsensor",
+          "motionsensor",
+          "accelerationsensor",
+          "threeaxis",
+          "temperaturemeasurement",
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact",
+          "motion",
+          "acceleration",
+          "threeAxis",
+          "temperature",
+          "presence"
+        ],
+        "capabilities_count": 6,
+        "available_commands_count": 0,
+        "available_attributes_count": 6
+      }
+    },
+    {
+      "thermostat-window-check": {
+        "capabilities": [
+          "contactsensor",
+          "thermostat"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "contact",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 13,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "initial-state-event-streamer": {
+        "capabilities": [
+          "accelerationsensor",
+          "alarm",
+          "battery",
+          "beacon",
+          "carbonmonoxidedetector",
+          "colorcontrol",
+          "contactsensor",
+          "doorcontrol",
+          "energymeter",
+          "illuminancemeasurement",
+          "lock",
+          "motionsensor",
+          "musicplayer",
+          "powermeter",
+          "presencesensor",
+          "relativehumiditymeasurement",
+          "relayswitch",
+          "sleepsensor",
+          "smokedetector",
+          "stepsensor",
+          "switch",
+          "switchlevel",
+          "temperaturemeasurement",
+          "thermostat",
+          "valve",
+          "watersensor"
+        ],
+        "available_commands": [
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "setColor",
+          "setHue",
+          "setSaturation",
+          "close",
+          "open",
+          "lock",
+          "unlock",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute",
+          "off",
+          "on",
+          "off",
+          "on",
+          "setLevel",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "close",
+          "open"
+        ],
+        "available_attributes": [
+          "acceleration",
+          "alarm",
+          "battery",
+          "presence",
+          "carbonMonoxide",
+          "color",
+          "hue",
+          "saturation",
+          "contact",
+          "door",
+          "energy",
+          "illuminance",
+          "lock",
+          "motion",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription",
+          "power",
+          "presence",
+          "humidity",
+          "switch",
+          "sleeping",
+          "smoke",
+          "goal",
+          "steps",
+          "switch",
+          "level",
+          "temperature",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "valve",
+          "water"
+        ],
+        "capabilities_count": 26,
+        "available_commands_count": 43,
+        "available_attributes_count": 45
+      }
+    },
+    {
+      "my-light-toggle": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "door-jammed-notification": {
+        "capabilities": [
+          "doorcontrol"
+        ],
+        "available_commands": [
+          "close",
+          "open"
+        ],
+        "available_attributes": [
+          "door"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "door-state-to-color-light-hue-bulb": {
+        "capabilities": [
+          "doorcontrol",
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "close",
+          "open",
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "door",
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 5,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "auto-humidity-vent": {
+        "capabilities": [
+          "relativehumiditymeasurement",
+          "switch",
+          "energymeter"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "humidity",
+          "switch",
+          "energy"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "jawbone-button-notifier": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "jawbone-up-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "turn-off-with-motion": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "enhanced-auto-lock-door": {
+        "capabilities": [
+          "lock",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "lock",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "weather-underground-pws-connect": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "relativehumiditymeasurement"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "temperature",
+          "humidity"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "medicine-management-contact-sensor": {
+        "capabilities": [
+          "contactsensor",
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "contact",
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 3,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "medicine-management-temp-motion": {
+        "capabilities": [
+          "accelerationsensor",
+          "temperaturemeasurement",
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "acceleration",
+          "temperature",
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 3,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "color-coordinator": {
+        "capabilities": [
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 3,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "smart-home-ventilation": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "switch-activates-home-phrase-or-mode": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "switch-activates-home-phrase": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "switch-changes-mode": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "talking-alarm-clock": {
+        "capabilities": [
+          "musicplayer",
+          "switch",
+          "switchlevel",
+          "thermostat",
+          "temperaturemeasurement",
+          "relativehumiditymeasurement"
+        ],
+        "available_commands": [
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute",
+          "off",
+          "on",
+          "setLevel",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription",
+          "switch",
+          "level",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "temperature",
+          "humidity"
+        ],
+        "capabilities_count": 6,
+        "available_commands_count": 28,
+        "available_attributes_count": 22
+      }
+    },
+    {
+      "lights-off-with-no-motion-and-presence": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "presencesensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "presence"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "opent2t-smartapp-test": {
+        "capabilities": [
+          "contactsensor",
+          "garagedoorcontrol",
+          "lock",
+          "videocapture",
+          "motionsensor",
+          "presencesensor",
+          "switch",
+          "thermostat",
+          "watersensor"
+        ],
+        "available_commands": [
+          "close",
+          "open",
+          "lock",
+          "unlock",
+          "off",
+          "on",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "contact",
+          "door",
+          "lock",
+          "motion",
+          "presence",
+          "switch",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "water"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 19,
+        "available_attributes_count": 20
+      }
+    },
+    {
+      "plantlink-connector": {
+        "capabilities": [
+          "sensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "spruce-scheduler": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "smart-light-timer-x-minutes-unless-already-on": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "monitor-on-sense": {
+        "capabilities": [
+          "accelerationsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "acceleration",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "simple-sync-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "simple-sync-trigger": {
+        "capabilities": [
+          "mediacontroller",
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "button"
+        ],
+        "available_commands": [
+          "startActivity",
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "activities",
+          "currentActivity",
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "button",
+          "numberOfButtons"
+        ],
+        "capabilities_count": 7,
+        "available_commands_count": 3,
+        "available_attributes_count": 9
+      }
+    },
+    {
+      "simple-control": {
+        "capabilities": [
+          "switch",
+          "lock",
+          "thermostat",
+          "doorcontrol",
+          "colorcontrol",
+          "musicplayer",
+          "switchlevel"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "close",
+          "open",
+          "setColor",
+          "setHue",
+          "setSaturation",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute",
+          "setLevel"
+        ],
+        "available_attributes": [
+          "switch",
+          "lock",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "door",
+          "color",
+          "hue",
+          "saturation",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription",
+          "level"
+        ],
+        "capabilities_count": 7,
+        "available_commands_count": 35,
+        "available_attributes_count": 25
+      }
+    },
+    {
+      "shabbat-and-holiday-modes": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "smart-humidifier": {
+        "capabilities": [
+          "relativehumiditymeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "humidity",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "smart-turn-it-on": {
+        "capabilities": [
+          "switch",
+          "presencesensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch",
+          "presence"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "door-lock-code-distress-message": {
+        "capabilities": [
+          "lock"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "lock"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "smart-auto-lock-unlock": {
+        "capabilities": [
+          "lock",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "lock",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "beacon-control": {
+        "capabilities": [
+          "beacon",
+          "switch",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "presence",
+          "switch",
+          "lock"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 4,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "big-turn-off": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "big-turn-on": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "bon-voyage": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "bose-soundtouch-control": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 14,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "brighten-dark-places": {
+        "capabilities": [
+          "contactsensor",
+          "illuminancemeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "illuminance",
+          "switch"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "brighten-my-path": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "button-controller": {
+        "capabilities": [
+          "button",
+          "switch",
+          "lock",
+          "musicplayer",
+          "alarm"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute",
+          "both",
+          "off",
+          "siren",
+          "strobe"
+        ],
+        "available_attributes": [
+          "button",
+          "numberOfButtons",
+          "switch",
+          "lock",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription",
+          "alarm"
+        ],
+        "capabilities_count": 5,
+        "available_commands_count": 20,
+        "available_attributes_count": 10
+      }
+    },
+    {
+      "camera-power-scheduler": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "cameras-on-when-im-away": {
+        "capabilities": [
+          "presencesensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "presence",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "carpool-notifier": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "close-the-valve": {
+        "capabilities": [
+          "watersensor",
+          "valve"
+        ],
+        "available_commands": [
+          "close",
+          "open"
+        ],
+        "available_attributes": [
+          "water",
+          "valve"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "curling-iron": {
+        "capabilities": [
+          "motionsensor",
+          "presencesensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "presence",
+          "switch"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "darken-behind-me": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "double-tap": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "dry-the-wetspot": {
+        "capabilities": [
+          "watersensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "water",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "ecobee-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "elder-care-daily-routine": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "motion",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "elder-care-slip-fall": {
+        "capabilities": [
+          "motionsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "motion"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "energy-alerts": {
+        "capabilities": [
+          "powermeter"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "power"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "energy-saver": {
+        "capabilities": [
+          "powermeter",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "power",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "every-element": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "feed-my-pet": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "flood-alert": {
+        "capabilities": [
+          "watersensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "water"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "foscam-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "garage-door-monitor": {
+        "capabilities": [
+          "threeaxis"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "threeAxis"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "garage-door-opener": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "gentle-wake-up": {
+        "capabilities": [
+          "switchlevel",
+          "sensor",
+          "switch",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "setLevel",
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "level",
+          "switch",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 15,
+        "available_attributes_count": 7
+      }
+    },
+    {
+      "good-night": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "greetings-earthling": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "habit-helper": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "has-barkley-been-fed": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "hub-ip-notifier": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "hue-mood-lighting": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "colorcontrol"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 5,
+        "available_attributes_count": 12
+      }
+    },
+    {
+      "ifttt": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "contactsensor",
+          "presencesensor",
+          "temperaturemeasurement",
+          "accelerationsensor",
+          "watersensor",
+          "illuminancemeasurement",
+          "relativehumiditymeasurement",
+          "alarm",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "contact",
+          "presence",
+          "temperature",
+          "acceleration",
+          "water",
+          "illuminance",
+          "humidity",
+          "alarm",
+          "lock"
+        ],
+        "capabilities_count": 11,
+        "available_commands_count": 8,
+        "available_attributes_count": 11
+      }
+    },
+    {
+      "it-moved": {
+        "capabilities": [
+          "accelerationsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "acceleration"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "its-too-cold": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "temperature",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "its-too-hot": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "temperature",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "keep-me-cozy-ii": {
+        "capabilities": [
+          "thermostat",
+          "temperaturemeasurement"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "temperature"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 13,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "keep-me-cozy": {
+        "capabilities": [
+          "thermostat"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 13,
+        "available_attributes_count": 13
+      }
+    },
+    {
+      "laundry-monitor": {
+        "capabilities": [
+          "accelerationsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "acceleration",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "left-it-open": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "let-there-be-light": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "life360-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "light-follows-me": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "light-up-the-night": {
+        "capabilities": [
+          "illuminancemeasurement",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "illuminance",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "lights-off-when-closed": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "lock-it-when-i-leave": {
+        "capabilities": [
+          "presencesensor",
+          "lock"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "presence",
+          "lock"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "logitech-harmony-connect": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "contactsensor",
+          "thermostat",
+          "presencesensor",
+          "temperaturemeasurement",
+          "accelerationsensor",
+          "watersensor",
+          "illuminancemeasurement",
+          "relativehumiditymeasurement",
+          "alarm",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "contact",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "presence",
+          "temperature",
+          "acceleration",
+          "water",
+          "illuminance",
+          "humidity",
+          "alarm",
+          "lock"
+        ],
+        "capabilities_count": 12,
+        "available_commands_count": 21,
+        "available_attributes_count": 24
+      }
+    },
+    {
+      "mail-arrived": {
+        "capabilities": [
+          "accelerationsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "acceleration"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "make-it-so": {
+        "capabilities": [
+          "switch",
+          "thermostat",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "lock"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 17,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "medicine-reminder": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "mini-hue-controller": {
+        "capabilities": [
+          "colorcontrol",
+          "button"
+        ],
+        "available_commands": [
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "available_attributes": [
+          "color",
+          "hue",
+          "saturation",
+          "button",
+          "numberOfButtons"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 3,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "mood-cube": {
+        "capabilities": [
+          "threeaxis",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "threeAxis",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "nfc-tag-toggle": {
+        "capabilities": [
+          "touchsensor",
+          "switch",
+          "lock",
+          "doorcontrol"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock",
+          "close",
+          "open"
+        ],
+        "available_attributes": [
+          "touch",
+          "switch",
+          "lock",
+          "door"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 6,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "notify-me-when-it-opens": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "notify-me-when": {
+        "capabilities": [
+          "button",
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "button",
+          "numberOfButtons",
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water"
+        ],
+        "capabilities_count": 8,
+        "available_commands_count": 2,
+        "available_attributes_count": 9
+      }
+    },
+    {
+      "notify-me-with-hue": {
+        "capabilities": [
+          "colorcontrol",
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button"
+        ],
+        "available_commands": [
+          "setColor",
+          "setHue",
+          "setSaturation",
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "color",
+          "hue",
+          "saturation",
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 5,
+        "available_attributes_count": 12
+      }
+    },
+    {
+      "once-a-day": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "photo-burst-when": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "imagecapture"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "take"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "image"
+        ],
+        "capabilities_count": 6,
+        "available_commands_count": 3,
+        "available_attributes_count": 6
+      }
+    },
+    {
+      "power-allowance": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "presence-change-push": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "presence-change-text": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "ridiculously-automated-garage-door": {
+        "capabilities": [
+          "contactsensor",
+          "momentary",
+          "presencesensor",
+          "accelerationsensor"
+        ],
+        "available_commands": [
+          "push"
+        ],
+        "available_attributes": [
+          "contact",
+          "presence",
+          "acceleration"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 1,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "rise-and-shine": {
+        "capabilities": [
+          "motionsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "scheduled-mode-change": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "send-ham-bridge-command-when": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water"
+        ],
+        "capabilities_count": 7,
+        "available_commands_count": 2,
+        "available_attributes_count": 7
+      }
+    },
+    {
+      "severe-weather-alert": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "single-button-controller": {
+        "capabilities": [
+          "switch",
+          "lock",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "switch",
+          "lock",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 16,
+        "available_attributes_count": 7
+      }
+    },
+    {
+      "sleepy-time": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "smart-care-daily-routine": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "motion",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "smart-care-detect-motion": {
+        "capabilities": [
+          "motionsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "motion"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "smart-nightlight": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "illuminancemeasurement"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "illuminance"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "smart-security": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "alarm",
+          "switch"
+        ],
+        "available_commands": [
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "alarm",
+          "switch"
+        ],
+        "capabilities_count": 4,
+        "available_commands_count": 6,
+        "available_attributes_count": 4
+      }
+    },
+    {
+      "smartweather-station-controller": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "sonos-music-modes": {
+        "capabilities": [
+          "musicplayer"
+        ],
+        "available_commands": [
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 12,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "sonos-remote-control": {
+        "capabilities": [
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 12,
+        "available_attributes_count": 7
+      }
+    },
+    {
+      "speaker-control": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 14,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "speaker-mood-music": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 14,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "speaker-notify-with-sound": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 14,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "speaker-weather-forecast": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor",
+          "smokedetector",
+          "watersensor",
+          "button",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence",
+          "smoke",
+          "water",
+          "button",
+          "numberOfButtons",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 9,
+        "available_commands_count": 14,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "step-notifier": {
+        "capabilities": [
+          "switch",
+          "colorcontrol",
+          "musicplayer"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setColor",
+          "setHue",
+          "setSaturation",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "switch",
+          "color",
+          "hue",
+          "saturation",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 17,
+        "available_attributes_count": 9
+      }
+    },
+    {
+      "sunrise-sunset": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "tesla-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "text-me-when-it-opens": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "text-me-when-theres-motion-and-im-not-here": {
+        "capabilities": [
+          "motionsensor",
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "motion",
+          "presence"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 0,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "the-big-switch": {
+        "capabilities": [
+          "switch",
+          "switchlevel"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setLevel"
+        ],
+        "available_attributes": [
+          "switch",
+          "level"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 3,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "the-flasher": {
+        "capabilities": [
+          "motionsensor",
+          "contactsensor",
+          "accelerationsensor",
+          "switch",
+          "presencesensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "motion",
+          "contact",
+          "acceleration",
+          "switch",
+          "presence"
+        ],
+        "capabilities_count": 5,
+        "available_commands_count": 2,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "the-gun-case-moved": {
+        "capabilities": [
+          "accelerationsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "acceleration"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "thermostats": {
+        "capabilities": [
+          "smokedetector",
+          "carbonmonoxidedetector",
+          "thermostat"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "smoke",
+          "carbonMonoxide",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 13,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "device-tile-controller": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "turn-it-on-for-5-minutes": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "turn-it-on-when-im-here": {
+        "capabilities": [
+          "presencesensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "presence",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "turn-it-on-when-it-opens": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "turn-on-only-if-i-arrive-after-sunset": {
+        "capabilities": [
+          "presencesensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "presence",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "ubi": {
+        "capabilities": [
+          "switch",
+          "motionsensor",
+          "lock",
+          "contactsensor",
+          "presencesensor"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "motion",
+          "lock",
+          "contact",
+          "presence"
+        ],
+        "capabilities_count": 5,
+        "available_commands_count": 4,
+        "available_attributes_count": 5
+      }
+    },
+    {
+      "undead-early-warning": {
+        "capabilities": [
+          "contactsensor",
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "contact",
+          "switch"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "unlock-it-when-i-arrive": {
+        "capabilities": [
+          "presencesensor",
+          "lock"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "presence",
+          "lock"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "virtual-device-creator": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "virtual-thermostat": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "switch",
+          "motionsensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "temperature",
+          "switch",
+          "motion"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 2,
+        "available_attributes_count": 3
+      }
+    },
+    {
+      "wattvision-manager": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "when-its-going-to-rain": {
+        "capabilities": [
+          "contactsensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "contact"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "withings-manager": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "withings": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "yoics-connect": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "sprayer-controller-2": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "smart-alarm": {
+        "capabilities": [
+          "contactsensor",
+          "motionsensor",
+          "accelerationsensor",
+          "smokedetector",
+          "watersensor",
+          "alarm",
+          "switch",
+          "imagecapture",
+          "musicplayer",
+          "button"
+        ],
+        "available_commands": [
+          "both",
+          "off",
+          "siren",
+          "strobe",
+          "off",
+          "on",
+          "take",
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "available_attributes": [
+          "contact",
+          "motion",
+          "acceleration",
+          "smoke",
+          "water",
+          "alarm",
+          "switch",
+          "image",
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription",
+          "button",
+          "numberOfButtons"
+        ],
+        "capabilities_count": 10,
+        "available_commands_count": 19,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "stelpro-get-remote-temperature": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "thermostat"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "temperature",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 13,
+        "available_attributes_count": 14
+      }
+    },
+    {
+      "hello-home-phrase-director": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "lighting-director": {
+        "capabilities": [
+          "switch",
+          "switchlevel",
+          "motionsensor",
+          "accelerationsensor",
+          "contactsensor",
+          "lock",
+          "illuminancemeasurement"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "setLevel",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "level",
+          "motion",
+          "acceleration",
+          "contact",
+          "lock",
+          "illuminance"
+        ],
+        "capabilities_count": 7,
+        "available_commands_count": 5,
+        "available_attributes_count": 7
+      }
+    },
+    {
+      "routine-director": {
+        "capabilities": [
+          "presencesensor"
+        ],
+        "available_commands": [],
+        "available_attributes": [
+          "presence"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 0,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "thermostat-mode-director": {
+        "capabilities": [
+          "temperaturemeasurement",
+          "thermostat",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "temperature",
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange",
+          "contact"
+        ],
+        "capabilities_count": 3,
+        "available_commands_count": 13,
+        "available_attributes_count": 15
+      }
+    },
+    {
+      "vacation-lighting-director": {
+        "capabilities": [
+          "switch",
+          "presencesensor"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch",
+          "presence"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "lock-it-at-a-specific-time": {
+        "capabilities": [
+          "lock",
+          "contactsensor"
+        ],
+        "available_commands": [
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "lock",
+          "contact"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 2,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "alfred-workflow": {
+        "capabilities": [
+          "switch",
+          "lock"
+        ],
+        "available_commands": [
+          "off",
+          "on",
+          "lock",
+          "unlock"
+        ],
+        "available_attributes": [
+          "switch",
+          "lock"
+        ],
+        "capabilities_count": 2,
+        "available_commands_count": 4,
+        "available_attributes_count": 2
+      }
+    },
+    {
+      "smartblock-chat-sender": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "smartblock-linker": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "smartblock-manager": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "smartblock-notifier": {
+        "capabilities": [
+          "switch"
+        ],
+        "available_commands": [
+          "off",
+          "on"
+        ],
+        "available_attributes": [
+          "switch"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 2,
+        "available_attributes_count": 1
+      }
+    },
+    {
+      "quirky-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "tcp-bulbs-connect": {
+        "capabilities": [],
+        "available_commands": [],
+        "available_attributes": [],
+        "capabilities_count": 0,
+        "available_commands_count": 0,
+        "available_attributes_count": 0
+      }
+    },
+    {
+      "weatherbug-home": {
+        "capabilities": [
+          "thermostat"
+        ],
+        "available_commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "available_attributes": [
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "capabilities_count": 1,
+        "available_commands_count": 13,
+        "available_attributes_count": 13
+      }
+    }
+  ]
+}

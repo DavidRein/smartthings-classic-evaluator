@@ -1,0 +1,1219 @@
+{
+  "capabilities": [
+    {
+      "accelerationsensor": {
+        "commands": [],
+        "attributes": [
+          "acceleration"
+        ],
+        "smartapp_request_count": 26
+      }
+    },
+    {
+      "actuator": {
+        "commands": [],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "airconditionermode": {
+        "commands": [
+          "setAirConditionerMode"
+        ],
+        "attributes": [
+          "airConditionerMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "airqualitysensor": {
+        "commands": [],
+        "attributes": [
+          "airQuality"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "alarm": {
+        "commands": [
+          "both",
+          "off",
+          "siren",
+          "strobe"
+        ],
+        "attributes": [
+          "alarm"
+        ],
+        "smartapp_request_count": 7
+      }
+    },
+    {
+      "audiomute": {
+        "commands": [
+          "setMute",
+          "mute",
+          "unmute"
+        ],
+        "attributes": [
+          "mute"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "audionotification": {
+        "commands": [
+          "playTrack",
+          "playTrackAndResume",
+          "playTrackAndRestore"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "audiotrackdata": {
+        "commands": [],
+        "attributes": [
+          "audioTrackData"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "audiovolume": {
+        "commands": [
+          "setVolume",
+          "volumeUp",
+          "volumeDown"
+        ],
+        "attributes": [
+          "volume"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "battery": {
+        "commands": [],
+        "attributes": [
+          "battery"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "beacon": {
+        "commands": [],
+        "attributes": [
+          "presence"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "bridge": {
+        "commands": [],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "bulb": {
+        "commands": [
+          "off",
+          "on"
+        ],
+        "attributes": [
+          "switch"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "button": {
+        "commands": [],
+        "attributes": [
+          "button",
+          "numberOfButtons"
+        ],
+        "smartapp_request_count": 13
+      }
+    },
+    {
+      "carbondioxidemeasurement": {
+        "commands": [],
+        "attributes": [
+          "carbonDioxide"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "carbonmonoxidedetector": {
+        "commands": [],
+        "attributes": [
+          "carbonMonoxide"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "colorcontrol": {
+        "commands": [
+          "setColor",
+          "setHue",
+          "setSaturation"
+        ],
+        "attributes": [
+          "color",
+          "hue",
+          "saturation"
+        ],
+        "smartapp_request_count": 12
+      }
+    },
+    {
+      "colormode": {
+        "commands": [],
+        "attributes": [
+          "colorMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "colortemperature": {
+        "commands": [
+          "setColorTemperature"
+        ],
+        "attributes": [
+          "colorTemperature"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "color": {
+        "commands": [
+          "setColorValue"
+        ],
+        "attributes": [
+          "colorValue"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "configuration": {
+        "commands": [
+          "configure"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "consumable": {
+        "commands": [
+          "setConsumableStatus"
+        ],
+        "attributes": [
+          "consumableStatus"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "contactsensor": {
+        "commands": [],
+        "attributes": [
+          "contact"
+        ],
+        "smartapp_request_count": 54
+      }
+    },
+    {
+      "demandresponseloadcontrol": {
+        "commands": [
+          "requestDrlcAction",
+          "overrideDrlcAction"
+        ],
+        "attributes": [
+          "drlcStatus"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "dishwashermode": {
+        "commands": [
+          "setDishwasherMode"
+        ],
+        "attributes": [
+          "dishwasherMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "dishwasheroperatingstate": {
+        "commands": [
+          "setMachineState"
+        ],
+        "attributes": [
+          "machineState",
+          "supportedMachineStates",
+          "dishwasherJobState",
+          "completionTime"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "doorcontrol": {
+        "commands": [
+          "close",
+          "open"
+        ],
+        "attributes": [
+          "door"
+        ],
+        "smartapp_request_count": 5
+      }
+    },
+    {
+      "dryermode": {
+        "commands": [
+          "setDryerMode"
+        ],
+        "attributes": [
+          "dryerMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "dryeroperatingstate": {
+        "commands": [
+          "setMachineState"
+        ],
+        "attributes": [
+          "machineState",
+          "supportedMachineStates",
+          "dryerJobState",
+          "completionTime"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "dustsensor": {
+        "commands": [],
+        "attributes": [
+          "fineDustLevel",
+          "dustLevel"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "energymeter": {
+        "commands": [],
+        "attributes": [
+          "energy"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "estimatedtimeofarrival": {
+        "commands": [],
+        "attributes": [
+          "eta"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "execute": {
+        "commands": [
+          "execute"
+        ],
+        "attributes": [
+          "data"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "fanspeed": {
+        "commands": [
+          "setFanSpeed"
+        ],
+        "attributes": [
+          "fanSpeed"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "filterstatus": {
+        "commands": [],
+        "attributes": [
+          "filterStatus"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "garagedoorcontrol": {
+        "commands": [
+          "close",
+          "open"
+        ],
+        "attributes": [
+          "door"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "geolocation": {
+        "commands": [],
+        "attributes": [
+          "latitude",
+          "longitude",
+          "method",
+          "accuracy",
+          "altitudeAccuracy",
+          "heading",
+          "speed",
+          "lastUpdateTime"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "holdablebutton": {
+        "commands": [],
+        "attributes": [
+          "button",
+          "numberOfButtons"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "illuminancemeasurement": {
+        "commands": [],
+        "attributes": [
+          "illuminance"
+        ],
+        "smartapp_request_count": 8
+      }
+    },
+    {
+      "imagecapture": {
+        "commands": [
+          "take"
+        ],
+        "attributes": [
+          "image"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "indicator": {
+        "commands": [
+          "indicatorNever",
+          "indicatorWhenOff",
+          "indicatorWhenOn"
+        ],
+        "attributes": [
+          "indicatorStatus"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "infraredlevel": {
+        "commands": [
+          "setInfraredLevel"
+        ],
+        "attributes": [
+          "infraredLevel"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "light": {
+        "commands": [
+          "off",
+          "on"
+        ],
+        "attributes": [
+          "switch"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "lockonly": {
+        "commands": [
+          "lock"
+        ],
+        "attributes": [
+          "lock"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "lock": {
+        "commands": [
+          "lock",
+          "unlock"
+        ],
+        "attributes": [
+          "lock"
+        ],
+        "smartapp_request_count": 23
+      }
+    },
+    {
+      "mediacontroller": {
+        "commands": [
+          "startActivity"
+        ],
+        "attributes": [
+          "activities",
+          "currentActivity"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "mediainputsource": {
+        "commands": [
+          "setInputSource"
+        ],
+        "attributes": [
+          "inputSource",
+          "supportedInputSources"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "mediaplaybackrepeat": {
+        "commands": [
+          "setPlaybackRepeatMode"
+        ],
+        "attributes": [
+          "playbackRepeatMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "mediaplaybackshuffle": {
+        "commands": [
+          "setPlaybackShuffle"
+        ],
+        "attributes": [
+          "playbackShuffle"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "mediaplayback": {
+        "commands": [
+          "setPlaybackStatus",
+          "play",
+          "pause",
+          "stop"
+        ],
+        "attributes": [
+          "level",
+          "playbackStatus"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "mediapresets": {
+        "commands": [
+          "selectPreset",
+          "playPreset"
+        ],
+        "attributes": [
+          "presets"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "mediatrackcontrol": {
+        "commands": [
+          "nextTrack",
+          "previousTrack"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "momentary": {
+        "commands": [
+          "push"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "motionsensor": {
+        "commands": [],
+        "attributes": [
+          "motion"
+        ],
+        "smartapp_request_count": 42
+      }
+    },
+    {
+      "musicplayer": {
+        "commands": [
+          "mute",
+          "nextTrack",
+          "pause",
+          "play",
+          "playTrack",
+          "previousTrack",
+          "restoreTrack",
+          "resumeTrack",
+          "setLevel",
+          "setTrack",
+          "stop",
+          "unmute"
+        ],
+        "attributes": [
+          "level",
+          "mute",
+          "status",
+          "trackData",
+          "trackDescription"
+        ],
+        "smartapp_request_count": 15
+      }
+    },
+    {
+      "notification": {
+        "commands": [
+          "deviceNotification"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "odorsensor": {
+        "commands": [],
+        "attributes": [
+          "odorLevel"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "outlet": {
+        "commands": [
+          "off",
+          "on"
+        ],
+        "attributes": [
+          "switch"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "ovenmode": {
+        "commands": [
+          "setOvenMode"
+        ],
+        "attributes": [
+          "ovenMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "ovenoperatingstate": {
+        "commands": [
+          "setMachineState",
+          "stop"
+        ],
+        "attributes": [
+          "machineState",
+          "supportedMachineStates",
+          "ovenJobState",
+          "completionTime",
+          "operationTime",
+          "progress"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "ovensetpoint": {
+        "commands": [
+          "setOvenSetpoint"
+        ],
+        "attributes": [
+          "ovenSetpoint"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "phmeasurement": {
+        "commands": [],
+        "attributes": [
+          "pH"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "polling": {
+        "commands": [
+          "poll"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "powerconsumptionreport": {
+        "commands": [],
+        "attributes": [
+          "powerConsumption"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "powermeter": {
+        "commands": [],
+        "attributes": [
+          "power"
+        ],
+        "smartapp_request_count": 5
+      }
+    },
+    {
+      "powersource": {
+        "commands": [],
+        "attributes": [
+          "powerSource"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "presencesensor": {
+        "commands": [],
+        "attributes": [
+          "presence"
+        ],
+        "smartapp_request_count": 41
+      }
+    },
+    {
+      "rapidcooling": {
+        "commands": [
+          "setRapidCooling"
+        ],
+        "attributes": [
+          "rapidCooling"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "refresh": {
+        "commands": [
+          "refresh"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "refrigerationsetpoint": {
+        "commands": [
+          "setRefrigerationSetpoint"
+        ],
+        "attributes": [
+          "refrigerationSetpoint"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "relativehumiditymeasurement": {
+        "commands": [],
+        "attributes": [
+          "humidity"
+        ],
+        "smartapp_request_count": 9
+      }
+    },
+    {
+      "relayswitch": {
+        "commands": [
+          "off",
+          "on"
+        ],
+        "attributes": [
+          "switch"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "robotcleanercleaningmode": {
+        "commands": [
+          "setRobotCleanerCleaningMode"
+        ],
+        "attributes": [
+          "robotCleanerCleaningMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "robotcleanermovement": {
+        "commands": [
+          "setRobotCleanerMovement"
+        ],
+        "attributes": [
+          "robotCleanerMovement"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "robotcleanerturbomode": {
+        "commands": [
+          "setRobotCleanerTurboMode"
+        ],
+        "attributes": [
+          "robotCleanerTurboMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "sensor": {
+        "commands": [],
+        "attributes": [],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "shocksensor": {
+        "commands": [],
+        "attributes": [
+          "shock"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "signalstrength": {
+        "commands": [],
+        "attributes": [
+          "lqi",
+          "rssi"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "sleepsensor": {
+        "commands": [],
+        "attributes": [
+          "sleeping"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "smokedetector": {
+        "commands": [],
+        "attributes": [
+          "smoke"
+        ],
+        "smartapp_request_count": 13
+      }
+    },
+    {
+      "soundpressurelevel": {
+        "commands": [],
+        "attributes": [
+          "soundPressureLevel"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "soundsensor": {
+        "commands": [],
+        "attributes": [
+          "sound"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "speechrecognition": {
+        "commands": [],
+        "attributes": [
+          "phraseSpoken"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "speechsynthesis": {
+        "commands": [
+          "speak"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "stepsensor": {
+        "commands": [],
+        "attributes": [
+          "goal",
+          "steps"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "switchlevel": {
+        "commands": [
+          "setLevel"
+        ],
+        "attributes": [
+          "level"
+        ],
+        "smartapp_request_count": 8
+      }
+    },
+    {
+      "switch": {
+        "commands": [
+          "off",
+          "on"
+        ],
+        "attributes": [
+          "switch"
+        ],
+        "smartapp_request_count": 98
+      }
+    },
+    {
+      "tamperalert": {
+        "commands": [],
+        "attributes": [
+          "tamper"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "temperaturemeasurement": {
+        "commands": [],
+        "attributes": [
+          "temperature"
+        ],
+        "smartapp_request_count": 18
+      }
+    },
+    {
+      "thermostatcoolingsetpoint": {
+        "commands": [
+          "setCoolingSetpoint"
+        ],
+        "attributes": [
+          "coolingSetpoint"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostatfanmode": {
+        "commands": [
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "setThermostatFanMode"
+        ],
+        "attributes": [
+          "thermostatFanMode",
+          "supportedThermostatFanModes"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostatheatingsetpoint": {
+        "commands": [
+          "setHeatingSetpoint"
+        ],
+        "attributes": [
+          "heatingSetpoint"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostatmode": {
+        "commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "heat",
+          "off",
+          "setThermostatMode"
+        ],
+        "attributes": [
+          "thermostatMode",
+          "supportedThermostatModes"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostatoperatingstate": {
+        "commands": [],
+        "attributes": [
+          "thermostatOperatingState"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostatsetpoint": {
+        "commands": [],
+        "attributes": [
+          "thermostatSetpoint"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "thermostat": {
+        "commands": [
+          "auto",
+          "cool",
+          "emergencyHeat",
+          "fanAuto",
+          "fanCirculate",
+          "fanOn",
+          "heat",
+          "off",
+          "setCoolingSetpoint",
+          "setHeatingSetpoint",
+          "setSchedule",
+          "setThermostatFanMode",
+          "setThermostatMode"
+        ],
+        "attributes": [
+          "coolingSetpoint",
+          "coolingSetpointRange",
+          "heatingSetpoint",
+          "heatingSetpointRange",
+          "schedule",
+          "temperature",
+          "thermostatFanMode",
+          "supportedThermostatFanModes",
+          "thermostatMode",
+          "supportedThermostatModes",
+          "thermostatOperatingState",
+          "thermostatSetpoint",
+          "thermostatSetpointRange"
+        ],
+        "smartapp_request_count": 18
+      }
+    },
+    {
+      "threeaxis": {
+        "commands": [],
+        "attributes": [
+          "threeAxis"
+        ],
+        "smartapp_request_count": 3
+      }
+    },
+    {
+      "timedsession": {
+        "commands": [
+          "cancel",
+          "pause",
+          "setCompletionTime",
+          "start",
+          "stop"
+        ],
+        "attributes": [
+          "sessionStatus",
+          "completionTime"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "tone": {
+        "commands": [
+          "beep"
+        ],
+        "attributes": [],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "touchsensor": {
+        "commands": [],
+        "attributes": [
+          "touch"
+        ],
+        "smartapp_request_count": 1
+      }
+    },
+    {
+      "tvchannel": {
+        "commands": [
+          "setTvChannel",
+          "channelUp",
+          "channelDown"
+        ],
+        "attributes": [
+          "tvChannel"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "ultravioletindex": {
+        "commands": [],
+        "attributes": [
+          "ultravioletIndex"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "valve": {
+        "commands": [
+          "close",
+          "open"
+        ],
+        "attributes": [
+          "valve"
+        ],
+        "smartapp_request_count": 2
+      }
+    },
+    {
+      "videoclips": {
+        "commands": [
+          "captureClip"
+        ],
+        "attributes": [
+          "videoClip"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "videostream": {
+        "commands": [
+          "startStream",
+          "stopStream"
+        ],
+        "attributes": [
+          "stream"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "voltagemeasurement": {
+        "commands": [],
+        "attributes": [
+          "voltage"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "washermode": {
+        "commands": [
+          "setWasherMode"
+        ],
+        "attributes": [
+          "washerMode"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "washeroperatingstate": {
+        "commands": [
+          "setMachineState"
+        ],
+        "attributes": [
+          "machineState",
+          "supportedMachineStates",
+          "washerJobState",
+          "completionTime"
+        ],
+        "smartapp_request_count": 0
+      }
+    },
+    {
+      "watersensor": {
+        "commands": [],
+        "attributes": [
+          "water"
+        ],
+        "smartapp_request_count": 18
+      }
+    },
+    {
+      "windowshade": {
+        "commands": [
+          "close",
+          "open",
+          "presetPosition"
+        ],
+        "attributes": [
+          "windowShade"
+        ],
+        "smartapp_request_count": 2
+      }
+    }
+  ]
+}

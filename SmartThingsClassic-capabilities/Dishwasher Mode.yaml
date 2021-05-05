@@ -1,0 +1,34 @@
+name: Dishwasher Mode
+status: proposed
+attributes:
+  dishwasherMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: DishwasherMode
+      required: ["value"]
+    type: ENUM
+    values:
+      - auto
+      - quick
+      - rinse
+      - dry
+    setter: setDishwasherMode
+commands:
+  setDishwasherMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: DishwasherMode
+      type: ENUM
+      values:
+        - auto
+        - quick
+        - rinse
+        - dry
+public: true
+id: dishwasherMode
+ocfResourceType: x.com.st.mode.dishwasher
+version: 1

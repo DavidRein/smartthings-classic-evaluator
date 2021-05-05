@@ -1,0 +1,77 @@
+# reviewed 2018-01-30
+name: Thermostat Mode
+status: live
+attributes:
+  thermostatMode:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatMode
+      required:
+        - value
+    type: ENUM
+    values:
+      - auto
+      - eco
+      - rush hour
+      - cool
+      - emergency heat
+      - heat
+      - 'off'
+    setter: setThermostatMode
+    enumCommands:
+      - command: auto
+        value: auto
+      - command: cool
+        value: cool
+      - command: emergencyHeat
+        value: emergency heat
+      - command: heat
+        value: heat
+      - command: 'off'
+        value: 'off'
+  supportedThermostatModes:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: ThermostatMode
+    type: JSON_OBJECT
+commands:
+  auto:
+    arguments: [
+      ]
+  cool:
+    arguments: [
+      ]
+  emergencyHeat:
+    arguments: [
+      ]
+  heat:
+    arguments: [
+      ]
+  'off':
+    arguments: [
+      ]
+  setThermostatMode:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        $ref: ThermostatMode
+      type: ENUM
+      values:
+        - auto
+        - eco
+        - rush hour
+        - cool
+        - emergency heat
+        - heat
+        - 'off'
+public: true
+id: thermostatMode
+ocfResourceType: x.com.st.mode.thermostat
+version: 1

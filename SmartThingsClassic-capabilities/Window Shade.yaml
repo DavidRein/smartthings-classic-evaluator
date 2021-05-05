@@ -1,0 +1,47 @@
+# reviewed 2018-02-15
+name: Window Shade
+status: proposed
+attributes:
+  windowShade:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: OpenableState
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: OpenableState
+      required:
+        - value
+    type: ENUM
+    values:
+      - closed
+      - closing
+      - open
+      - opening
+      - partially open
+      - unknown
+    enumCommands:
+      - command: close
+        value: closed
+      - command: open
+        value: open
+    actedOnBy:
+      - presetPosition
+commands:
+  close:
+    arguments: [
+      ]
+  open:
+    arguments: [
+      ]
+  presetPosition:
+    arguments: [
+      ]
+public: true
+id: windowShade
+version: 1

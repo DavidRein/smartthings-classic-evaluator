@@ -1,0 +1,24 @@
+# reviewed 2018-01-11
+name: Sound Sensor
+status: live
+attributes:
+  sound:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - detected
+            - not detected
+      required: ["value"]
+    type: ENUM
+    values:
+      - detected
+      - not detected
+commands: {
+  }
+public: true
+id: soundSensor
+ocfResourceType: x.com.st.soundsensor
+version: 1

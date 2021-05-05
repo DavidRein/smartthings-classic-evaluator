@@ -1,0 +1,30 @@
+name: Media Presets
+status: proposed
+attributes:
+  presets:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: MediaPreset
+    type: JSON_OBJECT
+commands:
+  selectPreset:
+    arguments:
+    - name: presetId
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  playPreset:
+    arguments:
+    - name: presetId
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+public: true
+id: mediaPresets
+version: 1

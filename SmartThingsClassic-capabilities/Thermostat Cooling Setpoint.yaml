@@ -1,0 +1,21 @@
+# reviewed 2018-01-30
+name: Thermostat Cooling Setpoint
+status: live
+attributes:
+  coolingSetpoint:
+    schema:
+      $ref: Temperature
+    type: NUMBER
+    setter: setCoolingSetpoint
+commands:
+  setCoolingSetpoint:
+    arguments:
+    - name: setpoint
+      required: true
+      schema:
+        $ref: TemperatureValue
+      type: NUMBER
+public: true
+id: thermostatCoolingSetpoint
+ocfResourceType: x.com.st.temperature.cooling
+version: 1

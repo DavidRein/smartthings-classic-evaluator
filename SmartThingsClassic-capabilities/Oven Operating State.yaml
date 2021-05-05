@@ -1,0 +1,98 @@
+name: Oven Operating State
+status: proposed
+attributes:
+  machineState:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - ready
+            - running
+            - paused
+    type: ENUM
+    values:
+      - ready
+      - running
+      - paused
+    setter: setMachineState
+    actedOnBy:
+      - stop
+  supportedMachineStates:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            type: string
+            enum:
+              - ready
+              - running
+              - paused
+    type: JSON_OBJECT
+  ovenJobState:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - cleaning
+            - cooking
+            - cooling
+            - draining
+            - preheat
+            - ready
+            - rinsing
+    type: ENUM
+    values:
+      - cleaning
+      - cooking
+      - cooling
+      - draining
+      - preheat
+      - ready
+      - rinsing
+  completionTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Iso8601Date
+      required:
+        - value
+    type: DATE
+  operationTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+    actedOnBy:
+      - stop
+  progress:
+    schema:
+      $ref: IntegerPercent
+    type: NUMBER
+commands:
+  setMachineState:
+    arguments:
+    - name: state
+      required: true
+      schema:
+        type: string
+        enum:
+          - stop
+      type: ENUM
+      values:
+        - stop
+  stop:
+    arguments: [
+      ]
+public: true
+id: ovenOperatingState
+ocfResourceType: x.com.st.operationalstate.oven
+version: 1

@@ -1,0 +1,21 @@
+# reviewed 2018-02-01
+name: Beacon
+status: deprecated
+attributes:
+  presence:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PresenceState
+      required:
+        - value
+    type: ENUM
+    values:
+      - not present
+      - present
+commands: {
+  }
+public: true
+id: beacon
+version: 1

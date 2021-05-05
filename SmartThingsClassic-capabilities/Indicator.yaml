@@ -1,0 +1,41 @@
+# reviewed 2018-2-20
+name: Indicator
+status: deprecated
+attributes:
+  indicatorStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - never
+            - when off
+            - when on
+      required:
+        - value
+    type: ENUM
+    values:
+    - never
+    - when off
+    - when on
+    enumCommands:
+      - command: indicatorNever
+        value: never
+      - command: indicatorWhenOff
+        value: when off
+      - command: indicatorWhenOn
+        value: when on
+commands:
+  indicatorNever:
+    arguments: [
+      ]
+  indicatorWhenOff:
+    arguments: [
+      ]
+  indicatorWhenOn:
+    arguments: [
+      ]
+public: true
+id: indicator
+version: 1

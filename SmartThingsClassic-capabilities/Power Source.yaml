@@ -1,0 +1,26 @@
+name: Power Source
+status: live
+attributes:
+  powerSource:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - battery
+            - dc
+            - mains
+            - unknown
+      required: ["value"]
+    type: ENUM
+    values:
+      - battery
+      - dc
+      - mains
+      - unknown
+commands: {
+  }
+public: true
+id: powerSource
+version: 1

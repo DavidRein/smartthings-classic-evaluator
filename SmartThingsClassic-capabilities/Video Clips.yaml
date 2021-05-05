@@ -1,0 +1,30 @@
+name: Video Clips
+status: proposed
+attributes:
+  videoClip:
+    schema:
+       type: object
+       properties:
+         value:
+           $ref: VideoClip
+       required:
+         - value
+    type: JSON_OBJECT
+    actedOnBy:
+      - captureClip
+commands:
+  captureClip:
+    arguments:
+      - name: duration
+        required: true
+        schema:
+          $ref: PositiveInteger
+        type: NUMBER
+      - name: preFetch
+        required: true
+        schema:
+          $ref: PositiveInteger
+        type: NUMBER
+public: true
+id: videoClips
+version: 1

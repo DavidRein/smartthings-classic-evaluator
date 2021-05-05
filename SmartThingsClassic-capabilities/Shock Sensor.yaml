@@ -1,0 +1,23 @@
+# reviewed 2018-01-11
+name: Shock Sensor
+status: deprecated
+attributes:
+  shock:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - clear
+            - detected
+      required: ["value"]
+    type: ENUM
+    values:
+      - clear
+      - detected
+commands: {
+  }
+public: true
+id: shockSensor
+version: 1

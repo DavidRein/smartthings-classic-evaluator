@@ -1,0 +1,29 @@
+# reviewed 2018-2-13
+name: Three Axis
+status: live
+attributes:
+  threeAxis:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            type: integer
+            minimum: -10000
+            maximum: 10000
+          minItems: 3
+          maxItems: 3
+        unit:
+          type: string
+          enum:
+            - mG
+          default: mG
+      required:
+        - value
+    type: VECTOR3
+commands: {
+  }
+public: true
+id: threeAxis
+version: 1

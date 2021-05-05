@@ -1,0 +1,128 @@
+# reviewed 2018-02-22
+name: Music Player
+status: deprecated
+attributes:
+  level:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+    type: NUMBER
+    setter: setLevel
+  mute:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MuteState
+    type: ENUM
+    values:
+      - muted
+      - unmuted
+    enumCommands:
+      - command: mute
+        value: muted
+      - command: unmute
+        value: unmuted
+  status:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: String
+    type: STRING
+    actedOnBy:
+      - nextTrack
+      - pause
+      - play
+      - playTrack
+      - previousTrack
+      - restoreTrack
+      - resumeTrack
+      - setTrack
+      - stop
+  trackData:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: JsonObject
+    type: JSON_OBJECT
+    actedOnBy:
+      - nextTrack
+      - pause
+      - play
+      - playTrack
+      - previousTrack
+      - restoreTrack
+      - resumeTrack
+      - setTrack
+      - stop
+  trackDescription:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: String
+    type: STRING
+commands:
+  mute:
+    arguments: [
+      ]
+  nextTrack:
+    arguments: [
+      ]
+  pause:
+    arguments: [
+      ]
+  play:
+    arguments: [
+      ]
+  playTrack:
+    arguments:
+    - name: trackToPlay
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  previousTrack:
+    arguments: [
+      ]
+  restoreTrack:
+    arguments:
+    - name: trackToRestore
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  resumeTrack:
+    arguments:
+    - name: trackToResume
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  setLevel:
+    arguments:
+    - name: level
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+  setTrack:
+    arguments:
+    - name: trackToSet
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  stop:
+    arguments: [
+      ]
+  unmute:
+    arguments: [
+      ]
+public: true
+id: musicPlayer
+version: 1

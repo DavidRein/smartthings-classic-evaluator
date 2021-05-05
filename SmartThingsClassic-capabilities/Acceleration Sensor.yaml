@@ -1,0 +1,21 @@
+# reviewed 2018-01-03
+name: Acceleration Sensor
+status: live
+attributes:
+  acceleration:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ActivityState
+      required: ["value"]
+    type: ENUM
+    values:
+      - active
+      - inactive
+commands: {
+  }
+public: true
+id: accelerationSensor
+ocfResourceType: x.com.st.acceleration
+version: 1

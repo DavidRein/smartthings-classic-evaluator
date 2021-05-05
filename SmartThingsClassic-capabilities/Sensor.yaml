@@ -1,0 +1,10 @@
+# reviewed 2018-01-11
+name: Sensor
+status: deprecated
+attributes: {
+  }
+commands: {
+  }
+public: true
+id: sensor
+version: 1

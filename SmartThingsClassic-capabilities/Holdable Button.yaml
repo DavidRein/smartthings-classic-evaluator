@@ -1,0 +1,33 @@
+# reviewed 2018-2-20
+name: Holdable Button
+status: deprecated
+attributes:
+  button:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - held
+            - pushed
+      required:
+        - value
+    type: ENUM
+    values:
+      - held
+      - pushed
+  numberOfButtons:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: PositiveInteger
+      required:
+        - value
+    type: NUMBER
+commands: {
+  }
+public: true
+id: holdableButton
+version: 1

@@ -1,0 +1,19 @@
+# reviewed 2018-2-13
+name: Speech Recognition
+status: proposed
+attributes:
+  phraseSpoken:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          maxLength: 1000
+      required:
+        - value
+    type: STRING
+commands: {
+  }
+public: true
+id: speechRecognition
+version: 1

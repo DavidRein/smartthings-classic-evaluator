@@ -1,0 +1,28 @@
+# reviewed 2018-01-09 pending decision on rate
+name: Switch Level
+status: live
+attributes:
+  level:
+    schema:
+      $ref: IntegerPercent
+    type: NUMBER
+    setter: setLevel
+commands:
+  setLevel:
+    arguments:
+    - name: level
+      schema:
+        type: integer
+        minimum: 0
+        maximum: 100
+      type: NUMBER
+      required: true
+    - name: rate
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+      required: false
+public: true
+id: switchLevel
+ocfResourceType: oic.r.light.dimming
+version: 1

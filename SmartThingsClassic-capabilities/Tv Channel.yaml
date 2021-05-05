@@ -1,0 +1,32 @@
+name: Tv Channel
+status: proposed
+attributes:
+  tvChannel:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: String
+    type: STRING
+    setter: setTvChannel
+    actedOnBy:
+      - channelDown
+      - channelUp
+commands:
+  setTvChannel:
+    arguments:
+    - name: channel
+      required: true
+      schema:
+        $ref: String
+      type: STRING
+  channelUp:
+    arguments: [
+      ]
+  channelDown:
+    arguments: [
+      ]
+public: true
+id: tvChannel
+ocfResourceType: x.com.st.tvchannel
+version: 1

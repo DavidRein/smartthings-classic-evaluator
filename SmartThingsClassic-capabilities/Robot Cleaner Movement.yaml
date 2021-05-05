@@ -1,0 +1,48 @@
+name: Robot Cleaner Movement
+status: proposed
+attributes:
+  robotCleanerMovement:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - homing
+            - idle
+            - charging
+            - alarm
+            - powerOff
+            - reserve
+            - point
+            - after
+            - cleaning
+      required: ["value"]
+    type: ENUM
+    values:
+      - homing
+      - idle
+      - charging
+      - alarm
+      - powerOff
+      - reserve
+      - point
+      - after
+      - cleaning
+    setter: setRobotCleanerMovement
+commands:
+  setRobotCleanerMovement:
+    arguments:
+    - name: mode
+      required: true
+      schema:
+        type: string
+        enum:
+          - homing
+      type: ENUM
+      values:
+        - homing
+public: true
+id: robotCleanerMovement
+ocfResourceType: x.com.st.robot.cleaner.movement
+version: 1

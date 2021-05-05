@@ -1,0 +1,104 @@
+name: Washer Operating State
+status: proposed
+attributes:
+  machineState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MachineState
+      required: ["value"]
+    type: ENUM
+    values:
+      - pause
+      - run
+      - stop
+    setter: setMachineState
+  supportedMachineStates:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: MachineState
+    type: JSON_OBJECT
+  washerJobState:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - airWash
+            - cooling
+            - delayWash
+            - drying
+            - finish
+            - none
+            - preWash
+            - rinse
+            - spin
+            - wash
+            - weightSensing
+            - wrinklePrevent
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                type: string
+                enum:
+                  - airWash
+                  - cooling
+                  - delayWash
+                  - drying
+                  - finish
+                  - none
+                  - preWash
+                  - rinse
+                  - spin
+                  - wash
+                  - weightSensing
+                  - wrinklePrevent
+      required: ["value"]
+    type: ENUM
+    values:
+      - airWash
+      - cooling
+      - delayWash
+      - drying
+      - finish
+      - none
+      - preWash
+      - rinse
+      - spin
+      - wash
+      - weightSensing
+      - wrinklePrevent
+  completionTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Iso8601Date
+      required:
+        - value
+    type: DATE
+commands:
+  setMachineState:
+    arguments:
+    - name: state
+      required: true
+      schema:
+        $ref: MachineState
+      type: ENUM
+      values:
+        - pause
+        - run
+        - stop
+public: true
+id: washerOperatingState
+ocfResourceType: x.com.st.operationalstate.washer
+version: 1

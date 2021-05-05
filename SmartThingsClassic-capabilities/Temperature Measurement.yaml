@@ -1,0 +1,20 @@
+# reviewed 2018-01-30
+name: Temperature Measurement
+status: live
+attributes:
+  temperature:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: TemperatureValue
+        unit:
+          $ref: TemperatureUnit
+      required: ["value", "unit"]
+    type: NUMBER
+commands: {
+  }
+public: true
+id: temperatureMeasurement
+ocfResourceType: x.com.st.temperature.measured
+version: 1

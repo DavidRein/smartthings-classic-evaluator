@@ -1,0 +1,86 @@
+name: Dishwasher Operating State
+status: proposed
+attributes:
+  machineState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: MachineState
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: MachineState
+      required: ["value"]
+    type: ENUM
+    values:
+      - pause
+      - run
+      - stop
+    setter: setMachineState
+  supportedMachineStates:
+    schema:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: MachineState
+      requires:
+        - value
+    type: JSON_OBJECT
+  dishwasherJobState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: DishwasherJobState
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                $ref: DishwasherJobState
+      required: ["value"]
+    type: ENUM
+    values:
+      - airwash
+      - cooling
+      - drying
+      - finish
+      - preDrain
+      - prewash
+      - rinse
+      - spin
+      - unknown
+      - wash
+      - wrinklePrevent
+  completionTime:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: Iso8601Date
+      required:
+        - value
+    type: DATE
+commands:
+  setMachineState:
+    arguments:
+    - name: state
+      required: true
+      schema:
+        $ref: MachineState
+      type: ENUM
+      values:
+      - pause
+      - run
+      - stop
+public: true
+id: dishwasherOperatingState
+ocfResourceType: x.com.st.operationalstate.dishwasher
+version: 1

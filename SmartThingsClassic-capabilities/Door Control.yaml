@@ -1,0 +1,54 @@
+# reviewed 2018-02-20
+name: Door Control
+status: live
+attributes:
+  door:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - closed
+            - closing
+            - open
+            - opening
+            - unknown
+        constraints:
+          type: object
+          properties:
+            values:
+              type: array
+              items:
+                type: string
+                enum:
+                  - closed
+                  - closing
+                  - open
+                  - opening
+                  - unknown
+      required:
+        - value
+    type: ENUM
+    values:
+      - closed
+      - closing
+      - open
+      - opening
+      - unknown
+    enumCommands:
+      - command: close
+        value: closed
+      - command: open
+        value: open
+commands:
+  close:
+    arguments: [
+      ]
+  open:
+    arguments: [
+      ]
+public: true
+id: doorControl
+ocfResourceType: x.com.st.doorcontrol
+version: 1

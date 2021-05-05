@@ -1,0 +1,27 @@
+# reviewed 2018-01-30
+name: Thermostat Operating State
+status: live
+attributes:
+  thermostatOperatingState:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: ThermostatOperatingState
+      required:
+        - value
+    type: ENUM
+    values:
+      - cooling
+      - fan only
+      - heating
+      - idle
+      - pending cool
+      - pending heat
+      - vent economizer
+commands: {
+  }
+public: true
+id: thermostatOperatingState
+ocfResourceType: x.com.st.operationalstate.thermostat
+version: 1

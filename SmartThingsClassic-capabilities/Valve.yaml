@@ -1,0 +1,34 @@
+# reviewed 2018-02-15
+name: Valve
+status: live
+attributes:
+  valve:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+            - closed
+            - open
+      required: ["value"]
+    type: ENUM
+    values:
+      - closed
+      - open
+    enumCommands:
+      - command: close
+        value: closed
+      - command: open
+        value: open
+commands:
+  close:
+    arguments: [
+      ]
+  open:
+    arguments: [
+      ]
+public: true
+id: valve
+ocfResourceType: x.com.st.valve
+version: 1

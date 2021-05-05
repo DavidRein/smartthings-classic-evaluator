@@ -1,0 +1,51 @@
+name: Demand Response Load Control
+status: proposed
+attributes:
+  drlcStatus:
+    schema:
+      type: object
+      properties:
+        value:
+          $ref: DemandResponseLoadControlStatus
+      required: ["value"]
+    type: JSON_OBJECT
+commands:
+  requestDrlcAction:
+    arguments:
+    - name: drlcType
+      required: true
+      schema:
+        $ref: DrlcType
+      type: NUMBER
+    - name: drlcLevel
+      required: true
+      schema:
+        $ref: DrlcLevel
+      type: NUMBER
+    - name: start
+      required: true
+      schema:
+        $ref: Iso8601Date
+      type: STRING
+    - name: duration
+      required: true
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+    - name: reportingPeriod
+      schema:
+        $ref: PositiveInteger
+      type: NUMBER
+      required: false
+  overrideDrlcAction:
+    arguments:
+    - name: value
+      required: true
+      schema:
+        type: boolean
+      type: BOOLEAN
+
+public: true
+id: demandResponseLoadControl
+ocfResourceType: oic.r.energy.drlc   #https://oneiota.org/revisions/1761
+version: 1
