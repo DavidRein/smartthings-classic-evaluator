@@ -1,0 +1,12 @@
+#project local directories
+.vscode/
+old/
+
+#file extensions
+*.csv
+
+#undesired dataset files
+SmartThingsPublic-master/*.md
+SmartThingsPublic-master/*.png
+SmartThingsPublic-master/*.st-ignore
+SmartThingsPublic-master/*.properties
