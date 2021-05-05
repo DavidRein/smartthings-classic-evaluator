@@ -6,7 +6,8 @@ old/
 *.csv
 
 #undesired dataset files
-SmartThingsPublic-master/*.md
-SmartThingsPublic-master/*.png
-SmartThingsPublic-master/*.st-ignore
-SmartThingsPublic-master/*.properties
+SmartThingsPublic-master/**/*.md
+SmartThingsPublic-master/**/*.png
+SmartThingsPublic-master/**/*.st-ignore
+SmartThingsPublic-master/**/*.properties
+SmartThingsPublic-master/**/*.json
