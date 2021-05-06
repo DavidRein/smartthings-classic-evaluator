@@ -115,7 +115,7 @@ def extract_devicehandler_info(writeToCSV=False, writeToJSON=False):
 
 #creates a dictionary of smartapps and their capabilities, 
 # extracted from downloaded smartthings github repo
-def extract_smartapp_info(capabilitiies_dict, writeToCSV=False, writeToJSON=False):
+def extract_smartapp_info(capabilities_dict, writeToCSV=False, writeToJSON=False):
     output = []
     data = {"smartapps": []}
     files = get_files("./SmartThingsPublic-master/smartapps", "groovy")
@@ -125,19 +125,72 @@ def extract_smartapp_info(capabilitiies_dict, writeToCSV=False, writeToJSON=Fals
         filename = strip_to_filename(f, "groovy")
         entry = [filename]
 
-        #scan file line-by-line for 'capability' keyword, pull capability names
+        entry_varnames = []
+
+        #scan file line-by-line for 'capability' keyword, pull capability names, 
+        # generate list of variable names used for capability
         with open(f, "rt", encoding='utf-8') as myfile:
             for myline in myfile:
                 if "\"capability." in myline:
                     capability = re.search("\"capability.(.*?)\"", myline).group(1).lower()
                     if not capability in entry:
                         entry.append(capability)
+                    if "input" in myline:
+                        varname = re.search("input[ (](name:)? ?\"(.*?)\"", myline)
+                        if varname is not None:
+                            entry_varnames.append( [varname.group(2),capability] )
+                        else:
+                            #print("Note: smartapp src file '%s' doesn't have proper capability request" % filename)
+                            pass
+
+        #attempt at grabbing actually called capability commands and attributes----------------
+        actual_commands = []
+        actual_attributes = []
+        #TODO search file using variables provided in varnames:
+        # On successful hits of "[varname].(.*?)\(.*\)", add to actual_command or actual_attributes list
+        with open(f, "rt", encoding='utf-8') as myfile:
+            #for each line in the file
+            for myline in myfile:
+                # for every capability variable of that file
+                for ev in entry_varnames:
+                    varname = ev[0] #variable name of capability in src
+                    capability = ev[1] #capability
+                    
+                    #if a member of the variable is referred to...
+                    if varname + "." in myline:
+                        #print(myline)
+                        member = re.search(varname + "\.([A-Za-z]+)", myline)
+                        
+                        if member is not None:
+                            #set to member name (command or variable)
+                            member = member.group(1)
+
+                            for caps in capabilities_dict["capabilities"]:
+                                if capability in caps.keys():
+                                    print(member, caps)
+                                    if member in caps[capability]["commands"]:
+                                        #print(caps[capability],"COM", member)
+                                        if not member in actual_commands:
+                                            actual_commands.append(member)
+                                    elif member in caps[capability]["attributes"]:
+                                        #print(caps[capability],"ATTR", member)
+                                        if not member in actual_attributes:
+                                            actual_attributes.append(member)
+                                pass
+
+                            #check if member is a valid command or attribute. If it is, add it actual_command or actual_attribute list
+                        else:
+                            #print("Note: '%s' does not call a member from capability variable '%s'" % (myline.strip(), varname))
+                            pass
+        #---------------------------------------------------------------------------------------
 
         #add results to output list
         output.append(entry)
 
         #create entry dict
-        sad = {"capabilities" : entry[1:], "available_commands": [], "available_attributes": []}
+        sad = {"capabilities" : entry[1:], "available_commands": [], "available_attributes": [] }
+        sad["actual_commands"] = actual_commands
+        sad["actual_attributes"] = actual_attributes
         #get commands and attributes of requested capabilities and add them to the entry dict
         for c in entry[1:]:
             temp = get_capability_info(c, capabilities_dict)
@@ -241,14 +294,16 @@ def get_capabilities_requested_count(capabilities_dict, smartapp_dict, writeToCS
 
 #gets count of capabilities, commands, and attributes for each smartapp, returns the list of counts
 def get_smartapp_access_count(smartapp_dict, writeToCSV=False, writeToJSON=False):
-    output = [['SmartApp', 'Capability Count', 'Available Commands Count', 'Available Attributes Count']]
+    output = [['SmartApp', 'Capability Count', 'Available Commands Count', 'Available Attributes Count',
+            'Actual Commands Count', 'Actual Attributes Count']]
 
     #for each smartapp entry
     for sad in smartapp_dict["smartapps"]:
         for smartapp in sad:
             #create list entry with counts for each element in the dictionary
             output.append([smartapp, len(sad[smartapp]["capabilities"]), 
-                    len(sad[smartapp]["available_commands"]), len(sad[smartapp]["available_attributes"])])
+                    len(sad[smartapp]["available_commands"]), len(sad[smartapp]["available_attributes"]),
+                    len(sad[smartapp]["actual_commands"]), len(sad[smartapp]["actual_attributes"])])
             #add counts to dictionary
             sad_keys = list(sad[smartapp])
             for key in sad_keys:
@@ -267,7 +322,7 @@ def get_smartapp_access_count(smartapp_dict, writeToCSV=False, writeToJSON=False
 if __name__ == "__main__":
     #initial pulls of information from 'external' sources (i.e. downloaded repo, source files, etc.)
     capabilities_dict = extract_capabilities_info()
-    smartapp_dict = extract_smartapp_info(capabilities_dict)
+    smartapp_dict = extract_smartapp_info(capabilities_dict, writeToJSON=True)
     extract_devicehandler_info()
 
     #calculate metrics from existing information

@@ -19,9 +19,13 @@
           "motion",
           "illuminance"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 3,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -40,9 +44,17 @@
           "switch",
           "lock"
         ],
+        "actual_commands": [
+          "lock",
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 4,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 3,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -59,9 +71,15 @@
           "switch",
           "contact"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -83,9 +101,13 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 5,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -132,9 +154,13 @@
           "thermostatSetpointRange",
           "windowShade"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 18,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -142,9 +168,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -152,9 +182,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -166,9 +200,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -187,9 +225,13 @@
           "switch",
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 4,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -204,9 +246,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -250,9 +296,13 @@
           "thermostatSetpointRange",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 15,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -260,9 +310,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -279,9 +333,13 @@
           "carbonDioxide",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -289,9 +347,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -331,9 +393,16 @@
           "thermostatSetpointRange",
           "contact"
         ],
+        "actual_commands": [
+          "off",
+          "setThermostatMode"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 13,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -379,9 +448,16 @@
           "thermostatSetpointRange",
           "contact"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 15,
-        "available_attributes_count": 16
+        "available_attributes_count": 16,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -398,9 +474,13 @@
           "humidity",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -417,9 +497,16 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "off",
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -433,9 +520,13 @@
           "contact",
           "temperature"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -449,9 +540,13 @@
           "contact",
           "temperature"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -459,9 +554,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -549,9 +648,13 @@
           "temperature",
           "battery"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 17,
         "available_commands_count": 29,
-        "available_attributes_count": 31
+        "available_attributes_count": 31,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -576,9 +679,13 @@
           "lock",
           "temperature"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 5,
         "available_commands_count": 4,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -595,9 +702,15 @@
           "humidity",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -611,9 +724,13 @@
           "acceleration",
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -638,9 +755,13 @@
           "alarm",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 6,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -659,9 +780,13 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -673,9 +798,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -687,9 +816,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -711,9 +844,13 @@
           "temperature",
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 6,
         "available_commands_count": 0,
-        "available_attributes_count": 6
+        "available_attributes_count": 6,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -753,9 +890,13 @@
           "thermostatSetpoint",
           "thermostatSetpointRange"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 13,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -880,9 +1021,13 @@
           "valve",
           "water"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 26,
         "available_commands_count": 43,
-        "available_attributes_count": 45
+        "available_attributes_count": 45,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -899,9 +1044,16 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -916,9 +1068,13 @@
         "available_attributes": [
           "door"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -940,9 +1096,13 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 5,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -961,9 +1121,16 @@
           "switch",
           "energy"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -971,9 +1138,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -981,9 +1152,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1000,9 +1175,16 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [
+          "off",
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1019,9 +1201,16 @@
           "lock",
           "contact"
         ],
+        "actual_commands": [
+          "lock",
+          "unlock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1035,9 +1224,13 @@
           "temperature",
           "humidity"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1057,9 +1250,15 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [
+          "setHue"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 3,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1081,9 +1280,15 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [
+          "setHue"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 3,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1101,9 +1306,15 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [
+          "setColor"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 3,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1118,9 +1329,15 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1135,9 +1352,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1152,9 +1373,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1169,9 +1394,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1238,9 +1467,18 @@
           "temperature",
           "humidity"
         ],
+        "actual_commands": [
+          "setHeatingSetpoint",
+          "setCoolingSetpoint",
+          "setLevel",
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 6,
         "available_commands_count": 28,
-        "available_attributes_count": 22
+        "available_attributes_count": 22,
+        "actual_commands_count": 4,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1259,9 +1497,15 @@
           "motion",
           "presence"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1320,9 +1564,13 @@
           "thermostatSetpointRange",
           "water"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 19,
-        "available_attributes_count": 20
+        "available_attributes_count": 20,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1332,9 +1580,13 @@
         ],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1342,9 +1594,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1363,9 +1619,16 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1382,9 +1645,15 @@
           "acceleration",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1392,9 +1661,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1424,9 +1697,15 @@
           "button",
           "numberOfButtons"
         ],
+        "actual_commands": [
+          "startActivity"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 7,
         "available_commands_count": 3,
-        "available_attributes_count": 9
+        "available_attributes_count": 9,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1504,9 +1783,13 @@
           "trackDescription",
           "level"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 7,
         "available_commands_count": 35,
-        "available_attributes_count": 25
+        "available_attributes_count": 25,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1514,9 +1797,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1533,9 +1820,13 @@
           "humidity",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1552,9 +1843,16 @@
           "switch",
           "presence"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1569,9 +1867,13 @@
         "available_attributes": [
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1588,9 +1890,16 @@
           "lock",
           "contact"
         ],
+        "actual_commands": [
+          "lock",
+          "unlock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1611,9 +1920,18 @@
           "switch",
           "lock"
         ],
+        "actual_commands": [
+          "on",
+          "off",
+          "unlock",
+          "lock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 4,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 4,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1628,9 +1946,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1645,9 +1967,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1659,9 +1985,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1709,9 +2039,19 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "setLevel",
+          "pause",
+          "play",
+          "nextTrack",
+          "previousTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 14,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 5,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1730,9 +2070,15 @@
           "illuminance",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1749,9 +2095,15 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1797,9 +2149,13 @@
           "trackDescription",
           "alarm"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 5,
         "available_commands_count": 20,
-        "available_attributes_count": 10
+        "available_attributes_count": 10,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1814,9 +2170,16 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1833,9 +2196,16 @@
           "presence",
           "switch"
         ],
+        "actual_commands": [
+          "off",
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1847,9 +2217,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1866,9 +2240,15 @@
           "water",
           "valve"
         ],
+        "actual_commands": [
+          "close"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1887,9 +2267,16 @@
           "presence",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1906,9 +2293,15 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1923,9 +2316,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1942,9 +2339,16 @@
           "water",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1952,9 +2356,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1968,9 +2376,13 @@
           "motion",
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1982,9 +2394,13 @@
         "available_attributes": [
           "motion"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -1996,9 +2412,13 @@
         "available_attributes": [
           "power"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2015,9 +2435,15 @@
           "power",
           "switch"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2032,9 +2458,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2042,9 +2472,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2056,9 +2490,13 @@
         "available_attributes": [
           "water"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2066,9 +2504,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2080,9 +2522,13 @@
         "available_attributes": [
           "threeAxis"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2097,9 +2543,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2136,9 +2586,15 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 15,
-        "available_attributes_count": 7
+        "available_attributes_count": 7,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2155,9 +2611,13 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2169,9 +2629,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2179,9 +2643,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2193,9 +2661,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2203,9 +2675,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2242,9 +2718,13 @@
           "hue",
           "saturation"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 5,
-        "available_attributes_count": 12
+        "available_attributes_count": 12,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2285,9 +2765,13 @@
           "alarm",
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 11,
         "available_commands_count": 8,
-        "available_attributes_count": 11
+        "available_attributes_count": 11,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2299,9 +2783,13 @@
         "available_attributes": [
           "acceleration"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2318,9 +2806,13 @@
           "temperature",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2337,9 +2829,13 @@
           "temperature",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2379,9 +2875,16 @@
           "thermostatSetpointRange",
           "temperature"
         ],
+        "actual_commands": [
+          "setCoolingSetpoint",
+          "setHeatingSetpoint"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 13,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2419,9 +2922,16 @@
           "thermostatSetpoint",
           "thermostatSetpointRange"
         ],
+        "actual_commands": [
+          "setHeatingSetpoint",
+          "setCoolingSetpoint"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 13,
-        "available_attributes_count": 13
+        "available_attributes_count": 13,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2438,9 +2948,15 @@
           "acceleration",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2452,9 +2968,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2471,9 +2991,16 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2481,9 +3008,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2500,9 +3031,16 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2519,9 +3057,16 @@
           "illuminance",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2538,9 +3083,15 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2557,9 +3108,16 @@
           "presence",
           "lock"
         ],
+        "actual_commands": [
+          "unlock",
+          "lock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2627,9 +3185,13 @@
           "alarm",
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 12,
         "available_commands_count": 21,
-        "available_attributes_count": 24
+        "available_attributes_count": 24,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2641,9 +3203,13 @@
         "available_attributes": [
           "acceleration"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2689,9 +3255,13 @@
           "thermostatSetpointRange",
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 17,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2703,9 +3273,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2726,9 +3300,15 @@
           "button",
           "numberOfButtons"
         ],
+        "actual_commands": [
+          "setColor"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 3,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2745,9 +3325,13 @@
           "threeAxis",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2772,9 +3356,16 @@
           "lock",
           "door"
         ],
+        "actual_commands": [
+          "unlock",
+          "lock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 6,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2786,9 +3377,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2818,9 +3413,13 @@
           "smoke",
           "water"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 8,
         "available_commands_count": 2,
-        "available_attributes_count": 9
+        "available_attributes_count": 9,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2857,9 +3456,13 @@
           "button",
           "numberOfButtons"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 5,
-        "available_attributes_count": 12
+        "available_attributes_count": 12,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2874,9 +3477,16 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2902,9 +3512,15 @@
           "presence",
           "image"
         ],
+        "actual_commands": [
+          "take"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 6,
         "available_commands_count": 3,
-        "available_attributes_count": 6
+        "available_attributes_count": 6,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2919,9 +3535,15 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2933,9 +3555,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2947,9 +3573,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2968,9 +3598,15 @@
           "presence",
           "acceleration"
         ],
+        "actual_commands": [
+          "push"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 1,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2987,9 +3623,13 @@
           "motion",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -2997,9 +3637,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3026,9 +3670,13 @@
           "smoke",
           "water"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 7,
         "available_commands_count": 2,
-        "available_attributes_count": 7
+        "available_attributes_count": 7,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3036,9 +3684,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3075,9 +3727,13 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 16,
-        "available_attributes_count": 7
+        "available_attributes_count": 7,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3085,9 +3741,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3101,9 +3761,13 @@
           "motion",
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3115,9 +3779,13 @@
         "available_attributes": [
           "motion"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3136,9 +3804,16 @@
           "motion",
           "illuminance"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3163,9 +3838,13 @@
           "alarm",
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 6,
-        "available_attributes_count": 4
+        "available_attributes_count": 4,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3173,9 +3852,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3204,9 +3887,17 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "stop",
+          "setLevel",
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 12,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 3,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3238,9 +3929,19 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "nextTrack",
+          "previousTrack",
+          "pause",
+          "play",
+          "setLevel"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 12,
-        "available_attributes_count": 7
+        "available_attributes_count": 7,
+        "actual_commands_count": 5,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3288,9 +3989,19 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "setLevel",
+          "pause",
+          "play",
+          "nextTrack",
+          "previousTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 14,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 5,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3338,9 +4049,17 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "stop",
+          "setLevel",
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 14,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 3,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3388,9 +4107,13 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 14,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3438,9 +4161,15 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 9,
         "available_commands_count": 14,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3480,9 +4209,17 @@
           "trackData",
           "trackDescription"
         ],
+        "actual_commands": [
+          "on",
+          "off",
+          "playTrack"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 17,
-        "available_attributes_count": 9
+        "available_attributes_count": 9,
+        "actual_commands_count": 3,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3497,9 +4234,16 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3507,9 +4251,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3521,9 +4269,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3537,9 +4289,13 @@
           "motion",
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 0,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3557,9 +4313,13 @@
           "switch",
           "level"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 3,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3582,9 +4342,13 @@
           "switch",
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 5,
         "available_commands_count": 2,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3596,9 +4360,13 @@
         "available_attributes": [
           "acceleration"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3640,9 +4408,13 @@
           "thermostatSetpoint",
           "thermostatSetpointRange"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 13,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3650,9 +4422,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3669,9 +4445,16 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3688,9 +4471,16 @@
           "presence",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3707,9 +4497,15 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3726,9 +4522,16 @@
           "presence",
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3753,9 +4556,13 @@
           "contact",
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 5,
         "available_commands_count": 4,
-        "available_attributes_count": 5
+        "available_attributes_count": 5,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3772,9 +4579,15 @@
           "contact",
           "switch"
         ],
+        "actual_commands": [
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3791,9 +4604,15 @@
           "presence",
           "lock"
         ],
+        "actual_commands": [
+          "unlock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3801,9 +4620,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3822,9 +4645,16 @@
           "switch",
           "motion"
         ],
+        "actual_commands": [
+          "off",
+          "on"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
-        "available_attributes_count": 3
+        "available_attributes_count": 3,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3832,9 +4662,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3846,9 +4680,13 @@
         "available_attributes": [
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3856,9 +4694,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3866,9 +4708,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3883,9 +4729,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3900,9 +4750,16 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [
+          "on",
+          "off"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 2,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3957,9 +4814,13 @@
           "button",
           "numberOfButtons"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 10,
         "available_commands_count": 19,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -3999,9 +4860,13 @@
           "thermostatSetpoint",
           "thermostatSetpointRange"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 13,
-        "available_attributes_count": 14
+        "available_attributes_count": 14,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4013,9 +4878,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4045,9 +4914,13 @@
           "lock",
           "illuminance"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 7,
         "available_commands_count": 5,
-        "available_attributes_count": 7
+        "available_attributes_count": 7,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4059,9 +4932,13 @@
         "available_attributes": [
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 0,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4103,9 +4980,13 @@
           "thermostatSetpointRange",
           "contact"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 13,
-        "available_attributes_count": 15
+        "available_attributes_count": 15,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4122,9 +5003,13 @@
           "switch",
           "presence"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4141,9 +5026,15 @@
           "lock",
           "contact"
         ],
+        "actual_commands": [
+          "lock"
+        ],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 1,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4162,9 +5053,13 @@
           "switch",
           "lock"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 4,
-        "available_attributes_count": 2
+        "available_attributes_count": 2,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4172,9 +5067,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4189,9 +5088,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4199,9 +5102,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4216,9 +5123,13 @@
         "available_attributes": [
           "switch"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
-        "available_attributes_count": 1
+        "available_attributes_count": 1,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4226,9 +5137,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4236,9 +5151,13 @@
         "capabilities": [],
         "available_commands": [],
         "available_attributes": [],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 0,
         "available_commands_count": 0,
-        "available_attributes_count": 0
+        "available_attributes_count": 0,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     },
     {
@@ -4276,9 +5195,13 @@
           "thermostatSetpoint",
           "thermostatSetpointRange"
         ],
+        "actual_commands": [],
+        "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 13,
-        "available_attributes_count": 13
+        "available_attributes_count": 13,
+        "actual_commands_count": 0,
+        "actual_attributes_count": 0
       }
     }
   ]
