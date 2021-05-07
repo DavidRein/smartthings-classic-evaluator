@@ -167,15 +167,15 @@ def extract_smartapp_info(capabilities_dict, writeToCSV=False, writeToJSON=False
 
                             for caps in capabilities_dict["capabilities"]:
                                 if capability in caps.keys():
-                                    print(member, caps)
+                                    hdr = capability + "." + varname + "."
                                     if member in caps[capability]["commands"]:
                                         #print(caps[capability],"COM", member)
-                                        if not member in actual_commands:
-                                            actual_commands.append(member)
+                                        #if not member in actual_commands:
+                                        actual_commands.append(hdr + member)
                                     elif member in caps[capability]["attributes"]:
                                         #print(caps[capability],"ATTR", member)
-                                        if not member in actual_attributes:
-                                            actual_attributes.append(member)
+                                        #if not member in actual_attributes:
+                                        actual_attributes.append(hdr + member)
                                 pass
 
                             #check if member is a valid command or attribute. If it is, add it actual_command or actual_attribute list

@@ -45,9 +45,9 @@
           "lock"
         ],
         "actual_commands": [
-          "lock",
-          "on",
-          "off"
+          "lock.lock1.lock",
+          "switch.switcheson.on",
+          "switch.switchesoff.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -72,13 +72,14 @@
           "contact"
         ],
         "actual_commands": [
-          "off"
+          "switch.trigger.off",
+          "switch.theSwitches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
         "available_attributes_count": 2,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -394,8 +395,8 @@
           "contact"
         ],
         "actual_commands": [
-          "off",
-          "setThermostatMode"
+          "thermostat.thermostat.off",
+          "thermostat.thermostat.setThermostatMode"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -449,8 +450,8 @@
           "contact"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.fans.on",
+          "switch.fans.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 4,
@@ -498,8 +499,8 @@
           "switch"
         ],
         "actual_commands": [
-          "off",
-          "on"
+          "switch.switch1.off",
+          "switch.switch1.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -703,7 +704,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.coffee.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -1045,14 +1046,16 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switchesToToggle.on",
+          "switch.masterToggle.on",
+          "switch.switchesToToggle.off",
+          "switch.masterToggle.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
         "available_attributes_count": 2,
-        "actual_commands_count": 2,
+        "actual_commands_count": 4,
         "actual_attributes_count": 0
       }
     },
@@ -1122,8 +1125,8 @@
           "energy"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.fans.on",
+          "switch.fans.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
@@ -1176,8 +1179,8 @@
           "switch"
         ],
         "actual_commands": [
-          "off",
-          "on"
+          "switch.switches.off",
+          "switch.switches.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -1202,14 +1205,15 @@
           "contact"
         ],
         "actual_commands": [
-          "lock",
-          "unlock"
+          "lock.lock1.lock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
         "available_attributes_count": 2,
-        "actual_commands_count": 2,
+        "actual_commands_count": 3,
         "actual_attributes_count": 0
       }
     },
@@ -1251,13 +1255,14 @@
           "saturation"
         ],
         "actual_commands": [
-          "setHue"
+          "colorcontrol.deviceLight.setHue",
+          "colorcontrol.deviceLight.setHue"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 3,
         "available_attributes_count": 4,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -1281,13 +1286,14 @@
           "saturation"
         ],
         "actual_commands": [
-          "setHue"
+          "colorcontrol.deviceLight.setHue",
+          "colorcontrol.deviceLight.setHue"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 3,
         "available_attributes_count": 5,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -1307,7 +1313,7 @@
           "saturation"
         ],
         "actual_commands": [
-          "setColor"
+          "colorcontrol.master.setColor"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
@@ -1330,7 +1336,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switches.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
@@ -1468,16 +1474,46 @@
           "humidity"
         ],
         "actual_commands": [
-          "setHeatingSetpoint",
-          "setCoolingSetpoint",
-          "setLevel",
-          "playTrack"
+          "thermostat.A_thermostats.setHeatingSetpoint",
+          "thermostat.A_thermostats.setCoolingSetpoint",
+          "thermostat.A_thermostats.setHeatingSetpoint",
+          "thermostat.A_thermostats.setCoolingSetpoint",
+          "musicplayer.A_sonos.setLevel",
+          "musicplayer.A_sonos.playTrack",
+          "musicplayer.A_sonos.playTrack",
+          "musicplayer.A_sonos.playTrack",
+          "thermostat.B_thermostats.setHeatingSetpoint",
+          "thermostat.B_thermostats.setCoolingSetpoint",
+          "thermostat.B_thermostats.setHeatingSetpoint",
+          "thermostat.B_thermostats.setCoolingSetpoint",
+          "musicplayer.B_sonos.setLevel",
+          "musicplayer.B_sonos.playTrack",
+          "musicplayer.B_sonos.playTrack",
+          "musicplayer.B_sonos.playTrack",
+          "thermostat.C_thermostats.setHeatingSetpoint",
+          "thermostat.C_thermostats.setCoolingSetpoint",
+          "thermostat.C_thermostats.setHeatingSetpoint",
+          "thermostat.C_thermostats.setCoolingSetpoint",
+          "musicplayer.C_sonos.setLevel",
+          "musicplayer.C_sonos.playTrack",
+          "musicplayer.C_sonos.playTrack",
+          "musicplayer.C_sonos.playTrack",
+          "thermostat.D_thermostats.setHeatingSetpoint",
+          "thermostat.D_thermostats.setCoolingSetpoint",
+          "thermostat.D_thermostats.setHeatingSetpoint",
+          "thermostat.D_thermostats.setCoolingSetpoint",
+          "musicplayer.D_sonos.setLevel",
+          "musicplayer.D_sonos.playTrack",
+          "musicplayer.D_sonos.playTrack",
+          "musicplayer.D_sonos.playTrack",
+          "musicplayer.summarySonos.setLevel",
+          "musicplayer.summarySonos.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 6,
         "available_commands_count": 28,
         "available_attributes_count": 22,
-        "actual_commands_count": 4,
+        "actual_commands_count": 34,
         "actual_attributes_count": 0
       }
     },
@@ -1498,7 +1534,7 @@
           "presence"
         ],
         "actual_commands": [
-          "off"
+          "switch.switches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
@@ -1620,14 +1656,15 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switches.on",
+          "switch.switches.on",
+          "switch.switches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
         "available_attributes_count": 3,
-        "actual_commands_count": 2,
+        "actual_commands_count": 3,
         "actual_attributes_count": 0
       }
     },
@@ -1646,7 +1683,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switch1.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -1698,7 +1735,7 @@
           "numberOfButtons"
         ],
         "actual_commands": [
-          "startActivity"
+          "mediacontroller.agent.startActivity"
         ],
         "actual_attributes": [],
         "capabilities_count": 7,
@@ -1844,8 +1881,8 @@
           "presence"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switchOne.on",
+          "switch.switchOne.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -1891,14 +1928,19 @@
           "contact"
         ],
         "actual_commands": [
-          "lock",
-          "unlock"
+          "lock.lock1.lock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock",
+          "lock.lock1.unlock"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
         "available_attributes_count": 2,
-        "actual_commands_count": 2,
+        "actual_commands_count": 7,
         "actual_attributes_count": 0
       }
     },
@@ -1921,16 +1963,18 @@
           "lock"
         ],
         "actual_commands": [
-          "on",
-          "off",
-          "unlock",
-          "lock"
+          "switch.arrivalOnSwitches.on",
+          "switch.arrivalOffSwitches.off",
+          "lock.arrivalLocks.unlock",
+          "switch.departOnSwitches.on",
+          "switch.departOffSwitches.off",
+          "lock.departLocks.lock"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 4,
         "available_attributes_count": 3,
-        "actual_commands_count": 4,
+        "actual_commands_count": 6,
         "actual_attributes_count": 0
       }
     },
@@ -2040,11 +2084,11 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "setLevel",
-          "pause",
-          "play",
-          "nextTrack",
-          "previousTrack"
+          "musicplayer.bose.setLevel",
+          "musicplayer.bose.pause",
+          "musicplayer.bose.play",
+          "musicplayer.bose.nextTrack",
+          "musicplayer.bose.previousTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 9,
@@ -2071,7 +2115,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switch1.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
@@ -2096,7 +2140,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switch1.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2171,14 +2215,17 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switch1.on",
+          "switch.switch1.off",
+          "switch.switch1.off",
+          "switch.switch1.on",
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
         "available_attributes_count": 1,
-        "actual_commands_count": 2,
+        "actual_commands_count": 5,
         "actual_attributes_count": 0
       }
     },
@@ -2197,8 +2244,8 @@
           "switch"
         ],
         "actual_commands": [
-          "off",
-          "on"
+          "switch.switches1.off",
+          "switch.switches1.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2241,7 +2288,7 @@
           "valve"
         ],
         "actual_commands": [
-          "close"
+          "valve.valve.close"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2268,8 +2315,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.outlets.on",
+          "switch.outlets.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
@@ -2294,7 +2341,7 @@
           "switch"
         ],
         "actual_commands": [
-          "off"
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2340,8 +2387,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.pump.on",
+          "switch.pump.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2436,7 +2483,7 @@
           "switch"
         ],
         "actual_commands": [
-          "off"
+          "switch.switches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2587,7 +2634,7 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "playTrack"
+          "musicplayer.completionMusicPlayer.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 4,
@@ -2876,14 +2923,22 @@
           "temperature"
         ],
         "actual_commands": [
-          "setCoolingSetpoint",
-          "setHeatingSetpoint"
+          "thermostat.thermostat.setCoolingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 13,
         "available_attributes_count": 14,
-        "actual_commands_count": 2,
+        "actual_commands_count": 10,
         "actual_attributes_count": 0
       }
     },
@@ -2923,14 +2978,16 @@
           "thermostatSetpointRange"
         ],
         "actual_commands": [
-          "setHeatingSetpoint",
-          "setCoolingSetpoint"
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint",
+          "thermostat.thermostat.setHeatingSetpoint",
+          "thermostat.thermostat.setCoolingSetpoint"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 13,
         "available_attributes_count": 13,
-        "actual_commands_count": 2,
+        "actual_commands_count": 4,
         "actual_attributes_count": 0
       }
     },
@@ -2949,7 +3006,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switches.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -2992,8 +3049,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switch1.on",
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -3032,8 +3089,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switches.on",
+          "switch.switches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -3058,8 +3115,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.lights.on",
+          "switch.lights.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -3084,7 +3141,7 @@
           "switch"
         ],
         "actual_commands": [
-          "off"
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -3109,8 +3166,8 @@
           "lock"
         ],
         "actual_commands": [
-          "unlock",
-          "lock"
+          "lock.lock1.unlock",
+          "lock.lock1.lock"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -3301,13 +3358,14 @@
           "numberOfButtons"
         ],
         "actual_commands": [
-          "setColor"
+          "colorcontrol.bulbs.setColor",
+          "colorcontrol.bulbs.setColor"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 3,
         "available_attributes_count": 5,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -3357,8 +3415,8 @@
           "door"
         ],
         "actual_commands": [
-          "unlock",
-          "lock"
+          "lock.lock.unlock",
+          "lock.lock.lock"
         ],
         "actual_attributes": [],
         "capabilities_count": 4,
@@ -3478,8 +3536,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switches.on",
+          "switch.switches.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
@@ -3513,13 +3571,14 @@
           "image"
         ],
         "actual_commands": [
-          "take"
+          "imagecapture.camera.take",
+          "imagecapture.camera.take"
         ],
         "actual_attributes": [],
         "capabilities_count": 6,
         "available_commands_count": 3,
         "available_attributes_count": 6,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -3536,7 +3595,7 @@
           "switch"
         ],
         "actual_commands": [
-          "off"
+          "switch.theSwitch.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
@@ -3599,13 +3658,14 @@
           "acceleration"
         ],
         "actual_commands": [
-          "push"
+          "momentary.doorSwitch.push",
+          "momentary.doorSwitch.push"
         ],
         "actual_attributes": [],
         "capabilities_count": 4,
         "available_commands_count": 1,
         "available_attributes_count": 3,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
@@ -3805,14 +3865,17 @@
           "illuminance"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.lights.on",
+          "switch.lights.off",
+          "switch.lights.off",
+          "switch.lights.on",
+          "switch.lights.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
         "available_attributes_count": 3,
-        "actual_commands_count": 2,
+        "actual_commands_count": 5,
         "actual_attributes_count": 0
       }
     },
@@ -3888,15 +3951,16 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "stop",
-          "setLevel",
-          "playTrack"
+          "musicplayer.sonos.stop",
+          "musicplayer.sonos.stop",
+          "musicplayer.sonos.setLevel",
+          "musicplayer.sonos.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 12,
         "available_attributes_count": 5,
-        "actual_commands_count": 3,
+        "actual_commands_count": 4,
         "actual_attributes_count": 0
       }
     },
@@ -3930,17 +3994,18 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "nextTrack",
-          "previousTrack",
-          "pause",
-          "play",
-          "setLevel"
+          "musicplayer.sonos.nextTrack",
+          "musicplayer.sonos.previousTrack",
+          "musicplayer.sonos.pause",
+          "musicplayer.sonos.play",
+          "musicplayer.sonos.setLevel",
+          "musicplayer.sonos.setLevel"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 12,
         "available_attributes_count": 7,
-        "actual_commands_count": 5,
+        "actual_commands_count": 6,
         "actual_attributes_count": 0
       }
     },
@@ -3990,11 +4055,11 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "setLevel",
-          "pause",
-          "play",
-          "nextTrack",
-          "previousTrack"
+          "musicplayer.sonos.setLevel",
+          "musicplayer.sonos.pause",
+          "musicplayer.sonos.play",
+          "musicplayer.sonos.nextTrack",
+          "musicplayer.sonos.previousTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 9,
@@ -4050,9 +4115,9 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "stop",
-          "setLevel",
-          "playTrack"
+          "musicplayer.sonos.stop",
+          "musicplayer.sonos.setLevel",
+          "musicplayer.sonos.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 9,
@@ -4162,7 +4227,7 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "playTrack"
+          "musicplayer.sonos.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 9,
@@ -4210,9 +4275,9 @@
           "trackDescription"
         ],
         "actual_commands": [
-          "on",
-          "off",
-          "playTrack"
+          "switch.lights.on",
+          "switch.lights.off",
+          "musicplayer.sonos.playTrack"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
@@ -4235,14 +4300,16 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.sunriseOn.on",
+          "switch.sunriseOff.off",
+          "switch.sunsetOn.on",
+          "switch.sunsetOff.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
         "available_commands_count": 2,
         "available_attributes_count": 1,
-        "actual_commands_count": 2,
+        "actual_commands_count": 4,
         "actual_attributes_count": 0
       }
     },
@@ -4446,8 +4513,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switch1.on",
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4472,8 +4539,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switch1.on",
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4498,7 +4565,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switches.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4523,8 +4590,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.switch1.on",
+          "switch.switch1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4580,7 +4647,7 @@
           "switch"
         ],
         "actual_commands": [
-          "on"
+          "switch.switches.on"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4605,7 +4672,7 @@
           "lock"
         ],
         "actual_commands": [
-          "unlock"
+          "lock.lock1.unlock"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
@@ -4646,14 +4713,18 @@
           "motion"
         ],
         "actual_commands": [
-          "off",
-          "on"
+          "switch.outlets.off",
+          "switch.outlets.off",
+          "switch.outlets.on",
+          "switch.outlets.off",
+          "switch.outlets.on",
+          "switch.outlets.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 3,
         "available_commands_count": 2,
         "available_attributes_count": 3,
-        "actual_commands_count": 2,
+        "actual_commands_count": 6,
         "actual_attributes_count": 0
       }
     },
@@ -4751,8 +4822,8 @@
           "switch"
         ],
         "actual_commands": [
-          "on",
-          "off"
+          "switch.valves1.on",
+          "switch.valves1.off"
         ],
         "actual_attributes": [],
         "capabilities_count": 1,
@@ -5027,13 +5098,14 @@
           "contact"
         ],
         "actual_commands": [
-          "lock"
+          "lock.lock.lock",
+          "lock.lock.lock"
         ],
         "actual_attributes": [],
         "capabilities_count": 2,
         "available_commands_count": 2,
         "available_attributes_count": 2,
-        "actual_commands_count": 1,
+        "actual_commands_count": 2,
         "actual_attributes_count": 0
       }
     },
